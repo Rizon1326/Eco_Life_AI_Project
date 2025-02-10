@@ -1,5 +1,3 @@
-Sure! Here's the full modified README file with respective icons and formatted for your GitHub repository:
-
 
 # EcoLife AI Project
 
