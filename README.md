@@ -40,7 +40,7 @@ EcoLife AI is a project aimed at improving health and wellness through the use o
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/ecolife-ai-project.git
+   git clone https://github.com/Rizon1326/Eco_Life_AI_Project.git
    ```
 
 2. **Frontend Setup:**
