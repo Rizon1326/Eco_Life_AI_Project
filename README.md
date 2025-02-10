@@ -3,7 +3,7 @@ Sure! Here's the full modified README file with respective icons and formatted f
 
 # EcoLife AI Project
 
-![EcoLife AI]<img width="1440" alt="image" src="https://github.com/user-attachments/assets/abf07fc4-e368-449b-ac2f-e86eb6b3cc49" />
+<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/abf07fc4-e368-449b-ac2f-e86eb6b3cc49" />
 
 
 **Project Name:** EcoLife AI  
