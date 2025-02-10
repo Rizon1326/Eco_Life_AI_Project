@@ -3,7 +3,8 @@ Sure! Here's the full modified README file with respective icons and formatted f
 
 # EcoLife AI Project
 
-![EcoLife AI](https://img.icons8.com/ios/452/eco-friendly.png)
+![EcoLife AI]<img width="1440" alt="image" src="https://github.com/user-attachments/assets/abf07fc4-e368-449b-ac2f-e86eb6b3cc49" />
+
 
 **Project Name:** EcoLife AI  
 **Motive:** To use AI to promote healthier lifestyles through personalized nutrition and sustainable practices.
