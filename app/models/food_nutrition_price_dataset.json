@@ -1,0 +1,2356 @@
+[
+    {
+        "food_name": "Rice",
+        "nutritional_values": {
+            "calories": 434.46,
+            "protein": 46.9,
+            "carbohydrates": 82.33,
+            "fat": 17.47,
+            "fiber": 2.49
+        },
+        "price_rate_per_kg": 259
+    },
+    {
+        "food_name": "Chicken",
+        "nutritional_values": {
+            "calories": 268.58,
+            "protein": 20.56,
+            "carbohydrates": 4.01,
+            "fat": 41.64,
+            "fiber": 3.49
+        },
+        "price_rate_per_kg": 249
+    },
+    {
+        "food_name": "Lentils",
+        "nutritional_values": {
+            "calories": 223.73,
+            "protein": 19.46,
+            "carbohydrates": 9.27,
+            "fat": 34.93,
+            "fiber": 13.84
+        },
+        "price_rate_per_kg": 88
+    },
+    {
+        "food_name": "Banana",
+        "nutritional_values": {
+            "calories": 109.89,
+            "protein": 5.38,
+            "carbohydrates": 2.37,
+            "fat": 14.08,
+            "fiber": 16.1
+        },
+        "price_rate_per_kg": 242
+    },
+    {
+        "food_name": "Milk",
+        "nutritional_values": {
+            "calories": 41.36,
+            "protein": 28.49,
+            "carbohydrates": 58.3,
+            "fat": 36.28,
+            "fiber": 12.28
+        },
+        "price_rate_per_kg": 174
+    },
+    {
+        "food_name": "Eggs",
+        "nutritional_values": {
+            "calories": 254.82,
+            "protein": 27.57,
+            "carbohydrates": 42.95,
+            "fat": 40.88,
+            "fiber": 16.3
+        },
+        "price_rate_per_kg": 275
+    },
+    {
+        "food_name": "Wheat",
+        "nutritional_values": {
+            "calories": 63.91,
+            "protein": 6.0,
+            "carbohydrates": 49.9,
+            "fat": 9.16,
+            "fiber": 3.8
+        },
+        "price_rate_per_kg": 225
+    },
+    {
+        "food_name": "Tomato",
+        "nutritional_values": {
+            "calories": 439.7,
+            "protein": 14.87,
+            "carbohydrates": 28.33,
+            "fat": 30.09,
+            "fiber": 14.71
+        },
+        "price_rate_per_kg": 170
+    },
+    {
+        "food_name": "Potato",
+        "nutritional_values": {
+            "calories": 435.53,
+            "protein": 36.16,
+            "carbohydrates": 58.58,
+            "fat": 44.54,
+            "fiber": 16.34
+        },
+        "price_rate_per_kg": 256
+    },
+    {
+        "food_name": "Onion",
+        "nutritional_values": {
+            "calories": 159.31,
+            "protein": 38.68,
+            "carbohydrates": 38.39,
+            "fat": 24.81,
+            "fiber": 18.81
+        },
+        "price_rate_per_kg": 182
+    },
+    {
+        "food_name": "Carrot",
+        "nutritional_values": {
+            "calories": 61.31,
+            "protein": 15.66,
+            "carbohydrates": 51.01,
+            "fat": 8.43,
+            "fiber": 5.13
+        },
+        "price_rate_per_kg": 99
+    },
+    {
+        "food_name": "Spinach",
+        "nutritional_values": {
+            "calories": 199.94,
+            "protein": 36.36,
+            "carbohydrates": 52.72,
+            "fat": 49.52,
+            "fiber": 2.56
+        },
+        "price_rate_per_kg": 294
+    },
+    {
+        "food_name": "Cucumber",
+        "nutritional_values": {
+            "calories": 162.72,
+            "protein": 42.02,
+            "carbohydrates": 83.57,
+            "fat": 21.09,
+            "fiber": 13.83
+        },
+        "price_rate_per_kg": 37
+    },
+    {
+        "food_name": "Apple",
+        "nutritional_values": {
+            "calories": 402.3,
+            "protein": 11.09,
+            "carbohydrates": 91.47,
+            "fat": 34.67,
+            "fiber": 18.06
+        },
+        "price_rate_per_kg": 88
+    },
+    {
+        "food_name": "Mango",
+        "nutritional_values": {
+            "calories": 383.05,
+            "protein": 27.11,
+            "carbohydrates": 78.94,
+            "fat": 15.28,
+            "fiber": 15.09
+        },
+        "price_rate_per_kg": 61
+    },
+    {
+        "food_name": "Fish",
+        "nutritional_values": {
+            "calories": 281.65,
+            "protein": 47.15,
+            "carbohydrates": 96.01,
+            "fat": 21.39,
+            "fiber": 15.26
+        },
+        "price_rate_per_kg": 261
+    },
+    {
+        "food_name": "Beef",
+        "nutritional_values": {
+            "calories": 170.48,
+            "protein": 14.8,
+            "carbohydrates": 14.08,
+            "fat": 5.64,
+            "fiber": 17.33
+        },
+        "price_rate_per_kg": 46
+    },
+    {
+        "food_name": "Goat Meat",
+        "nutritional_values": {
+            "calories": 499.75,
+            "protein": 18.99,
+            "carbohydrates": 2.09,
+            "fat": 4.0,
+            "fiber": 7.45
+        },
+        "price_rate_per_kg": 66
+    },
+    {
+        "food_name": "Pulses",
+        "nutritional_values": {
+            "calories": 73.9,
+            "protein": 11.8,
+            "carbohydrates": 14.12,
+            "fat": 2.24,
+            "fiber": 4.36
+        },
+        "price_rate_per_kg": 285
+    },
+    {
+        "food_name": "Garlic",
+        "nutritional_values": {
+            "calories": 170.17,
+            "protein": 15.33,
+            "carbohydrates": 85.95,
+            "fat": 20.61,
+            "fiber": 10.44
+        },
+        "price_rate_per_kg": 85
+    },
+    {
+        "food_name": "Ginger",
+        "nutritional_values": {
+            "calories": 457.8,
+            "protein": 32.96,
+            "carbohydrates": 62.48,
+            "fat": 37.25,
+            "fiber": 16.76
+        },
+        "price_rate_per_kg": 208
+    },
+    {
+        "food_name": "Cabbage",
+        "nutritional_values": {
+            "calories": 125.56,
+            "protein": 13.45,
+            "carbohydrates": 55.7,
+            "fat": 5.61,
+            "fiber": 0.32
+        },
+        "price_rate_per_kg": 238
+    },
+    {
+        "food_name": "Cauliflower",
+        "nutritional_values": {
+            "calories": 103.81,
+            "protein": 28.14,
+            "carbohydrates": 56.29,
+            "fat": 46.99,
+            "fiber": 15.55
+        },
+        "price_rate_per_kg": 252
+    },
+    {
+        "food_name": "Coconut",
+        "nutritional_values": {
+            "calories": 182.76,
+            "protein": 39.68,
+            "carbohydrates": 36.85,
+            "fat": 24.93,
+            "fiber": 0.99
+        },
+        "price_rate_per_kg": 172
+    },
+    {
+        "food_name": "Coriander",
+        "nutritional_values": {
+            "calories": 311.64,
+            "protein": 10.04,
+            "carbohydrates": 46.38,
+            "fat": 49.62,
+            "fiber": 4.81
+        },
+        "price_rate_per_kg": 266
+    },
+    {
+        "food_name": "Chili",
+        "nutritional_values": {
+            "calories": 420.27,
+            "protein": 0.5,
+            "carbohydrates": 56.33,
+            "fat": 25.59,
+            "fiber": 5.92
+        },
+        "price_rate_per_kg": 187
+    },
+    {
+        "food_name": "Peas",
+        "nutritional_values": {
+            "calories": 262.63,
+            "protein": 12.74,
+            "carbohydrates": 52.08,
+            "fat": 4.9,
+            "fiber": 5.33
+        },
+        "price_rate_per_kg": 293
+    },
+    {
+        "food_name": "Pineapple",
+        "nutritional_values": {
+            "calories": 288.69,
+            "protein": 19.05,
+            "carbohydrates": 36.29,
+            "fat": 44.75,
+            "fiber": 6.91
+        },
+        "price_rate_per_kg": 111
+    },
+    {
+        "food_name": "Papaya",
+        "nutritional_values": {
+            "calories": 196.72,
+            "protein": 23.96,
+            "carbohydrates": 35.22,
+            "fat": 10.99,
+            "fiber": 11.73
+        },
+        "price_rate_per_kg": 143
+    },
+    {
+        "food_name": "Guava",
+        "nutritional_values": {
+            "calories": 374.47,
+            "protein": 24.9,
+            "carbohydrates": 90.71,
+            "fat": 47.08,
+            "fiber": 7.32
+        },
+        "price_rate_per_kg": 154
+    },
+    {
+        "food_name": "Orange",
+        "nutritional_values": {
+            "calories": 224.16,
+            "protein": 48.2,
+            "carbohydrates": 24.65,
+            "fat": 1.78,
+            "fiber": 2.3
+        },
+        "price_rate_per_kg": 281
+    },
+    {
+        "food_name": "Avocado",
+        "nutritional_values": {
+            "calories": 248.9,
+            "protein": 44.8,
+            "carbohydrates": 67.87,
+            "fat": 3.5,
+            "fiber": 7.74
+        },
+        "price_rate_per_kg": 192
+    },
+    {
+        "food_name": "Almonds",
+        "nutritional_values": {
+            "calories": 361.58,
+            "protein": 34.79,
+            "carbohydrates": 17.16,
+            "fat": 10.06,
+            "fiber": 10.28
+        },
+        "price_rate_per_kg": 53
+    },
+    {
+        "food_name": "Cashew",
+        "nutritional_values": {
+            "calories": 258.79,
+            "protein": 6.79,
+            "carbohydrates": 57.18,
+            "fat": 6.33,
+            "fiber": 9.71
+        },
+        "price_rate_per_kg": 46
+    },
+    {
+        "food_name": "Walnut",
+        "nutritional_values": {
+            "calories": 252.12,
+            "protein": 22.09,
+            "carbohydrates": 67.15,
+            "fat": 25.32,
+            "fiber": 3.05
+        },
+        "price_rate_per_kg": 92
+    },
+    {
+        "food_name": "Peanut",
+        "nutritional_values": {
+            "calories": 376.27,
+            "protein": 33.87,
+            "carbohydrates": 28.72,
+            "fat": 35.83,
+            "fiber": 8.19
+        },
+        "price_rate_per_kg": 237
+    },
+    {
+        "food_name": "Chickpeas",
+        "nutritional_values": {
+            "calories": 236.6,
+            "protein": 42.06,
+            "carbohydrates": 17.36,
+            "fat": 36.9,
+            "fiber": 1.9
+        },
+        "price_rate_per_kg": 225
+    },
+    {
+        "food_name": "Soybeans",
+        "nutritional_values": {
+            "calories": 424.35,
+            "protein": 2.38,
+            "carbohydrates": 83.73,
+            "fat": 48.26,
+            "fiber": 4.12
+        },
+        "price_rate_per_kg": 41
+    },
+    {
+        "food_name": "Beans",
+        "nutritional_values": {
+            "calories": 31.0,
+            "protein": 48.48,
+            "carbohydrates": 47.38,
+            "fat": 15.61,
+            "fiber": 8.74
+        },
+        "price_rate_per_kg": 144
+    },
+    {
+        "food_name": "Zucchini",
+        "nutritional_values": {
+            "calories": 48.77,
+            "protein": 41.59,
+            "carbohydrates": 26.14,
+            "fat": 36.61,
+            "fiber": 14.64
+        },
+        "price_rate_per_kg": 217
+    },
+    {
+        "food_name": "Pumpkin",
+        "nutritional_values": {
+            "calories": 203.65,
+            "protein": 9.27,
+            "carbohydrates": 71.68,
+            "fat": 0.63,
+            "fiber": 6.59
+        },
+        "price_rate_per_kg": 255
+    },
+    {
+        "food_name": "Bittermelon",
+        "nutritional_values": {
+            "calories": 321.43,
+            "protein": 14.01,
+            "carbohydrates": 35.67,
+            "fat": 33.42,
+            "fiber": 10.62
+        },
+        "price_rate_per_kg": 250
+    },
+    {
+        "food_name": "Sweet Potato",
+        "nutritional_values": {
+            "calories": 191.23,
+            "protein": 15.45,
+            "carbohydrates": 30.29,
+            "fat": 43.39,
+            "fiber": 4.66
+        },
+        "price_rate_per_kg": 72
+    },
+    {
+        "food_name": "Radish",
+        "nutritional_values": {
+            "calories": 361.05,
+            "protein": 4.66,
+            "carbohydrates": 50.94,
+            "fat": 27.13,
+            "fiber": 2.1
+        },
+        "price_rate_per_kg": 173
+    },
+    {
+        "food_name": "Squash",
+        "nutritional_values": {
+            "calories": 45.7,
+            "protein": 44.49,
+            "carbohydrates": 66.38,
+            "fat": 10.29,
+            "fiber": 9.51
+        },
+        "price_rate_per_kg": 74
+    },
+    {
+        "food_name": "Lettuce",
+        "nutritional_values": {
+            "calories": 402.28,
+            "protein": 35.78,
+            "carbohydrates": 4.98,
+            "fat": 15.54,
+            "fiber": 7.04
+        },
+        "price_rate_per_kg": 56
+    },
+    {
+        "food_name": "Bell Pepper",
+        "nutritional_values": {
+            "calories": 487.46,
+            "protein": 27.29,
+            "carbohydrates": 40.37,
+            "fat": 46.45,
+            "fiber": 3.4
+        },
+        "price_rate_per_kg": 237
+    },
+    {
+        "food_name": "Pomegranate",
+        "nutritional_values": {
+            "calories": 490.71,
+            "protein": 14.98,
+            "carbohydrates": 72.51,
+            "fat": 19.68,
+            "fiber": 4.04
+        },
+        "price_rate_per_kg": 249
+    },
+    {
+        "food_name": "Strawberry",
+        "nutritional_values": {
+            "calories": 141.7,
+            "protein": 15.37,
+            "carbohydrates": 48.93,
+            "fat": 14.83,
+            "fiber": 8.53
+        },
+        "price_rate_per_kg": 245
+    },
+    {
+        "food_name": "Blueberry",
+        "nutritional_values": {
+            "calories": 320.51,
+            "protein": 21.89,
+            "carbohydrates": 60.85,
+            "fat": 21.96,
+            "fiber": 9.5
+        },
+        "price_rate_per_kg": 97
+    },
+    {
+        "food_name": "Raspberry",
+        "nutritional_values": {
+            "calories": 145.34,
+            "protein": 29.72,
+            "carbohydrates": 84.7,
+            "fat": 20.57,
+            "fiber": 4.12
+        },
+        "price_rate_per_kg": 77
+    },
+    {
+        "food_name": "Cherry",
+        "nutritional_values": {
+            "calories": 268.07,
+            "protein": 33.46,
+            "carbohydrates": 7.75,
+            "fat": 43.41,
+            "fiber": 14.02
+        },
+        "price_rate_per_kg": 235
+    },
+    {
+        "food_name": "Grapes",
+        "nutritional_values": {
+            "calories": 156.39,
+            "protein": 36.83,
+            "carbohydrates": 71.93,
+            "fat": 18.24,
+            "fiber": 11.77
+        },
+        "price_rate_per_kg": 64
+    },
+    {
+        "food_name": "Pear",
+        "nutritional_values": {
+            "calories": 181.15,
+            "protein": 28.22,
+            "carbohydrates": 33.37,
+            "fat": 8.11,
+            "fiber": 18.9
+        },
+        "price_rate_per_kg": 237
+    },
+    {
+        "food_name": "Plum",
+        "nutritional_values": {
+            "calories": 342.42,
+            "protein": 30.37,
+            "carbohydrates": 46.89,
+            "fat": 24.65,
+            "fiber": 14.56
+        },
+        "price_rate_per_kg": 291
+    },
+    {
+        "food_name": "Kiwi",
+        "nutritional_values": {
+            "calories": 321.69,
+            "protein": 23.44,
+            "carbohydrates": 86.59,
+            "fat": 6.97,
+            "fiber": 12.05
+        },
+        "price_rate_per_kg": 118
+    },
+    {
+        "food_name": "Dragon Fruit",
+        "nutritional_values": {
+            "calories": 420.95,
+            "protein": 10.55,
+            "carbohydrates": 33.96,
+            "fat": 28.44,
+            "fiber": 10.3
+        },
+        "price_rate_per_kg": 107
+    },
+    {
+        "food_name": "Lychee",
+        "nutritional_values": {
+            "calories": 178.57,
+            "protein": 37.91,
+            "carbohydrates": 42.45,
+            "fat": 5.92,
+            "fiber": 19.59
+        },
+        "price_rate_per_kg": 236
+    },
+    {
+        "food_name": "Paprika",
+        "nutritional_values": {
+            "calories": 174.25,
+            "protein": 15.64,
+            "carbohydrates": 87.97,
+            "fat": 24.29,
+            "fiber": 2.19
+        },
+        "price_rate_per_kg": 272
+    },
+    {
+        "food_name": "Parsley",
+        "nutritional_values": {
+            "calories": 339.08,
+            "protein": 22.63,
+            "carbohydrates": 50.25,
+            "fat": 48.73,
+            "fiber": 2.51
+        },
+        "price_rate_per_kg": 57
+    },
+    {
+        "food_name": "Lime",
+        "nutritional_values": {
+            "calories": 78.91,
+            "protein": 10.29,
+            "carbohydrates": 73.96,
+            "fat": 36.16,
+            "fiber": 6.47
+        },
+        "price_rate_per_kg": 216
+    },
+    {
+        "food_name": "Lemon",
+        "nutritional_values": {
+            "calories": 159.38,
+            "protein": 26.39,
+            "carbohydrates": 95.59,
+            "fat": 9.93,
+            "fiber": 1.33
+        },
+        "price_rate_per_kg": 109
+    },
+    {
+        "food_name": "Watermelon",
+        "nutritional_values": {
+            "calories": 417.38,
+            "protein": 20.39,
+            "carbohydrates": 60.16,
+            "fat": 1.08,
+            "fiber": 19.02
+        },
+        "price_rate_per_kg": 264
+    },
+    {
+        "food_name": "Chia Seeds",
+        "nutritional_values": {
+            "calories": 281.53,
+            "protein": 26.41,
+            "carbohydrates": 14.48,
+            "fat": 16.95,
+            "fiber": 0.2
+        },
+        "price_rate_per_kg": 90
+    },
+    {
+        "food_name": "Flax Seeds",
+        "nutritional_values": {
+            "calories": 294.54,
+            "protein": 49.25,
+            "carbohydrates": 20.04,
+            "fat": 4.32,
+            "fiber": 16.87
+        },
+        "price_rate_per_kg": 253
+    },
+    {
+        "food_name": "Oats",
+        "nutritional_values": {
+            "calories": 245.21,
+            "protein": 23.01,
+            "carbohydrates": 5.48,
+            "fat": 13.27,
+            "fiber": 15.18
+        },
+        "price_rate_per_kg": 80
+    },
+    {
+        "food_name": "Barley",
+        "nutritional_values": {
+            "calories": 50.55,
+            "protein": 2.52,
+            "carbohydrates": 18.84,
+            "fat": 27.34,
+            "fiber": 13.65
+        },
+        "price_rate_per_kg": 250
+    },
+    {
+        "food_name": "Quinoa",
+        "nutritional_values": {
+            "calories": 354.6,
+            "protein": 39.77,
+            "carbohydrates": 66.66,
+            "fat": 12.5,
+            "fiber": 17.16
+        },
+        "price_rate_per_kg": 290
+    },
+    {
+        "food_name": "Buckwheat",
+        "nutritional_values": {
+            "calories": 352.25,
+            "protein": 6.91,
+            "carbohydrates": 59.82,
+            "fat": 19.89,
+            "fiber": 18.35
+        },
+        "price_rate_per_kg": 178
+    },
+    {
+        "food_name": "Rice Flour",
+        "nutritional_values": {
+            "calories": 361.97,
+            "protein": 24.73,
+            "carbohydrates": 22.39,
+            "fat": 33.92,
+            "fiber": 19.92
+        },
+        "price_rate_per_kg": 127
+    },
+    {
+        "food_name": "Corn Flour",
+        "nutritional_values": {
+            "calories": 173.72,
+            "protein": 42.11,
+            "carbohydrates": 91.41,
+            "fat": 48.22,
+            "fiber": 1.44
+        },
+        "price_rate_per_kg": 252
+    },
+    {
+        "food_name": "All-purpose Flour",
+        "nutritional_values": {
+            "calories": 376.89,
+            "protein": 3.53,
+            "carbohydrates": 82.83,
+            "fat": 3.03,
+            "fiber": 7.43
+        },
+        "price_rate_per_kg": 138
+    },
+    {
+        "food_name": "Brown Sugar",
+        "nutritional_values": {
+            "calories": 360.29,
+            "protein": 12.83,
+            "carbohydrates": 89.84,
+            "fat": 45.82,
+            "fiber": 11.48
+        },
+        "price_rate_per_kg": 275
+    },
+    {
+        "food_name": "Honey",
+        "nutritional_values": {
+            "calories": 250.43,
+            "protein": 18.95,
+            "carbohydrates": 46.94,
+            "fat": 42.11,
+            "fiber": 7.55
+        },
+        "price_rate_per_kg": 173
+    },
+    {
+        "food_name": "Maple Syrup",
+        "nutritional_values": {
+            "calories": 34.26,
+            "protein": 45.5,
+            "carbohydrates": 68.48,
+            "fat": 41.84,
+            "fiber": 10.27
+        },
+        "price_rate_per_kg": 53
+    },
+    {
+        "food_name": "Molasses",
+        "nutritional_values": {
+            "calories": 433.76,
+            "protein": 19.41,
+            "carbohydrates": 28.79,
+            "fat": 6.31,
+            "fiber": 14.08
+        },
+        "price_rate_per_kg": 126
+    },
+    {
+        "food_name": "Cinnamon",
+        "nutritional_values": {
+            "calories": 486.1,
+            "protein": 46.29,
+            "carbohydrates": 33.69,
+            "fat": 45.27,
+            "fiber": 7.73
+        },
+        "price_rate_per_kg": 221
+    },
+    {
+        "food_name": "Nutmeg",
+        "nutritional_values": {
+            "calories": 363.89,
+            "protein": 3.99,
+            "carbohydrates": 33.03,
+            "fat": 9.9,
+            "fiber": 4.21
+        },
+        "price_rate_per_kg": 208
+    },
+    {
+        "food_name": "Vanilla",
+        "nutritional_values": {
+            "calories": 206.11,
+            "protein": 2.33,
+            "carbohydrates": 54.25,
+            "fat": 41.16,
+            "fiber": 0.48
+        },
+        "price_rate_per_kg": 59
+    },
+    {
+        "food_name": "Turmeric",
+        "nutritional_values": {
+            "calories": 197.63,
+            "protein": 40.04,
+            "carbohydrates": 56.49,
+            "fat": 27.53,
+            "fiber": 18.91
+        },
+        "price_rate_per_kg": 119
+    },
+    {
+        "food_name": "Mustard",
+        "nutritional_values": {
+            "calories": 52.82,
+            "protein": 15.83,
+            "carbohydrates": 33.65,
+            "fat": 25.82,
+            "fiber": 8.92
+        },
+        "price_rate_per_kg": 184
+    },
+    {
+        "food_name": "Curry Powder",
+        "nutritional_values": {
+            "calories": 433.49,
+            "protein": 36.22,
+            "carbohydrates": 78.38,
+            "fat": 7.81,
+            "fiber": 1.45
+        },
+        "price_rate_per_kg": 218
+    },
+    {
+        "food_name": "Cumin",
+        "nutritional_values": {
+            "calories": 247.47,
+            "protein": 49.97,
+            "carbohydrates": 50.4,
+            "fat": 35.55,
+            "fiber": 12.17
+        },
+        "price_rate_per_kg": 197
+    },
+    {
+        "food_name": "Cardamom",
+        "nutritional_values": {
+            "calories": 118.75,
+            "protein": 12.79,
+            "carbohydrates": 87.91,
+            "fat": 27.62,
+            "fiber": 0.13
+        },
+        "price_rate_per_kg": 253
+    },
+    {
+        "food_name": "Cloves",
+        "nutritional_values": {
+            "calories": 358.35,
+            "protein": 22.59,
+            "carbohydrates": 35.52,
+            "fat": 41.69,
+            "fiber": 6.9
+        },
+        "price_rate_per_kg": 95
+    },
+    {
+        "food_name": "Bay Leaves",
+        "nutritional_values": {
+            "calories": 151.71,
+            "protein": 0.42,
+            "carbohydrates": 32.99,
+            "fat": 12.46,
+            "fiber": 13.85
+        },
+        "price_rate_per_kg": 156
+    },
+    {
+        "food_name": "Star Anise",
+        "nutritional_values": {
+            "calories": 486.1,
+            "protein": 32.71,
+            "carbohydrates": 10.7,
+            "fat": 46.67,
+            "fiber": 11.17
+        },
+        "price_rate_per_kg": 154
+    },
+    {
+        "food_name": "Basil",
+        "nutritional_values": {
+            "calories": 491.49,
+            "protein": 31.16,
+            "carbohydrates": 81.85,
+            "fat": 46.33,
+            "fiber": 8.84
+        },
+        "price_rate_per_kg": 222
+    },
+    {
+        "food_name": "Thyme",
+        "nutritional_values": {
+            "calories": 168.21,
+            "protein": 6.8,
+            "carbohydrates": 20.89,
+            "fat": 11.02,
+            "fiber": 10.18
+        },
+        "price_rate_per_kg": 215
+    },
+    {
+        "food_name": "Rosemary",
+        "nutritional_values": {
+            "calories": 191.19,
+            "protein": 34.33,
+            "carbohydrates": 33.94,
+            "fat": 44.12,
+            "fiber": 15.61
+        },
+        "price_rate_per_kg": 181
+    },
+    {
+        "food_name": "Oregano",
+        "nutritional_values": {
+            "calories": 42.72,
+            "protein": 27.84,
+            "carbohydrates": 39.24,
+            "fat": 8.0,
+            "fiber": 1.92
+        },
+        "price_rate_per_kg": 107
+    },
+    {
+        "food_name": "Saffron",
+        "nutritional_values": {
+            "calories": 429.9,
+            "protein": 44.22,
+            "carbohydrates": 65.45,
+            "fat": 49.26,
+            "fiber": 14.91
+        },
+        "price_rate_per_kg": 101
+    },
+    {
+        "food_name": "Sesame Seeds",
+        "nutritional_values": {
+            "calories": 280.17,
+            "protein": 5.28,
+            "carbohydrates": 40.28,
+            "fat": 40.82,
+            "fiber": 1.19
+        },
+        "price_rate_per_kg": 237
+    },
+    {
+        "food_name": "Sunflower Seeds",
+        "nutritional_values": {
+            "calories": 187.92,
+            "protein": 2.89,
+            "carbohydrates": 96.08,
+            "fat": 30.08,
+            "fiber": 0.62
+        },
+        "price_rate_per_kg": 237
+    },
+    {
+        "food_name": "Pumpkin Seeds",
+        "nutritional_values": {
+            "calories": 118.61,
+            "protein": 25.81,
+            "carbohydrates": 85.16,
+            "fat": 18.88,
+            "fiber": 1.62
+        },
+        "price_rate_per_kg": 192
+    },
+    {
+        "food_name": "Tomato Sauce",
+        "nutritional_values": {
+            "calories": 340.62,
+            "protein": 37.27,
+            "carbohydrates": 14.02,
+            "fat": 1.35,
+            "fiber": 10.22
+        },
+        "price_rate_per_kg": 243
+    },
+    {
+        "food_name": "Soy Sauce",
+        "nutritional_values": {
+            "calories": 294.59,
+            "protein": 5.19,
+            "carbohydrates": 93.84,
+            "fat": 38.59,
+            "fiber": 4.03
+        },
+        "price_rate_per_kg": 54
+    },
+    {
+        "food_name": "Coconut Oil",
+        "nutritional_values": {
+            "calories": 172.53,
+            "protein": 37.37,
+            "carbohydrates": 76.93,
+            "fat": 37.62,
+            "fiber": 4.36
+        },
+        "price_rate_per_kg": 62
+    },
+    {
+        "food_name": "Olive Oil",
+        "nutritional_values": {
+            "calories": 397.08,
+            "protein": 13.47,
+            "carbohydrates": 1.15,
+            "fat": 3.02,
+            "fiber": 4.52
+        },
+        "price_rate_per_kg": 241
+    },
+    {
+        "food_name": "Ghee",
+        "nutritional_values": {
+            "calories": 349.65,
+            "protein": 28.8,
+            "carbohydrates": 43.72,
+            "fat": 6.94,
+            "fiber": 19.38
+        },
+        "price_rate_per_kg": 99
+    },
+    {
+        "food_name": "Butter",
+        "nutritional_values": {
+            "calories": 333.49,
+            "protein": 9.43,
+            "carbohydrates": 44.1,
+            "fat": 41.64,
+            "fiber": 14.81
+        },
+        "price_rate_per_kg": 252
+    },
+    {
+        "food_name": "Cheese",
+        "nutritional_values": {
+            "calories": 387.38,
+            "protein": 19.68,
+            "carbohydrates": 87.52,
+            "fat": 22.72,
+            "fiber": 11.67
+        },
+        "price_rate_per_kg": 31
+    },
+    {
+        "food_name": "Yogurt",
+        "nutritional_values": {
+            "calories": 111.91,
+            "protein": 9.89,
+            "carbohydrates": 94.2,
+            "fat": 45.66,
+            "fiber": 2.77
+        },
+        "price_rate_per_kg": 150
+    },
+    {
+        "food_name": "Ice Cream",
+        "nutritional_values": {
+            "calories": 181.84,
+            "protein": 36.88,
+            "carbohydrates": 44.44,
+            "fat": 40.25,
+            "fiber": 4.3
+        },
+        "price_rate_per_kg": 165
+    },
+    {
+        "food_name": "Chocolate",
+        "nutritional_values": {
+            "calories": 410.14,
+            "protein": 7.58,
+            "carbohydrates": 6.85,
+            "fat": 2.37,
+            "fiber": 11.62
+        },
+        "price_rate_per_kg": 231
+    },
+    {
+        "food_name": "Brown Bread",
+        "nutritional_values": {
+            "calories": 47.1,
+            "protein": 38.29,
+            "carbohydrates": 73.39,
+            "fat": 40.45,
+            "fiber": 14.49
+        },
+        "price_rate_per_kg": 176
+    },
+    {
+        "food_name": "White Bread",
+        "nutritional_values": {
+            "calories": 108.01,
+            "protein": 32.27,
+            "carbohydrates": 96.76,
+            "fat": 29.31,
+            "fiber": 18.83
+        },
+        "price_rate_per_kg": 189
+    },
+    {
+        "food_name": "Croissant",
+        "nutritional_values": {
+            "calories": 303.5,
+            "protein": 14.36,
+            "carbohydrates": 7.18,
+            "fat": 16.15,
+            "fiber": 5.54
+        },
+        "price_rate_per_kg": 152
+    },
+    {
+        "food_name": "Baguette",
+        "nutritional_values": {
+            "calories": 215.79,
+            "protein": 15.72,
+            "carbohydrates": 88.08,
+            "fat": 24.55,
+            "fiber": 18.63
+        },
+        "price_rate_per_kg": 171
+    },
+    {
+        "food_name": "Bagel",
+        "nutritional_values": {
+            "calories": 166.56,
+            "protein": 9.57,
+            "carbohydrates": 60.22,
+            "fat": 28.9,
+            "fiber": 14.6
+        },
+        "price_rate_per_kg": 47
+    },
+    {
+        "food_name": "Muffin",
+        "nutritional_values": {
+            "calories": 246.86,
+            "protein": 32.63,
+            "carbohydrates": 37.28,
+            "fat": 21.07,
+            "fiber": 8.04
+        },
+        "price_rate_per_kg": 43
+    },
+    {
+        "food_name": "Donut",
+        "nutritional_values": {
+            "calories": 475.68,
+            "protein": 19.25,
+            "carbohydrates": 17.21,
+            "fat": 6.3,
+            "fiber": 15.05
+        },
+        "price_rate_per_kg": 234
+    },
+    {
+        "food_name": "Pizza",
+        "nutritional_values": {
+            "calories": 119.32,
+            "protein": 16.51,
+            "carbohydrates": 43.7,
+            "fat": 24.98,
+            "fiber": 12.6
+        },
+        "price_rate_per_kg": 41
+    },
+    {
+        "food_name": "Pasta",
+        "nutritional_values": {
+            "calories": 478.31,
+            "protein": 37.24,
+            "carbohydrates": 52.64,
+            "fat": 23.68,
+            "fiber": 12.26
+        },
+        "price_rate_per_kg": 229
+    },
+    {
+        "food_name": "Spaghetti",
+        "nutritional_values": {
+            "calories": 134.58,
+            "protein": 33.6,
+            "carbohydrates": 43.37,
+            "fat": 38.22,
+            "fiber": 11.13
+        },
+        "price_rate_per_kg": 106
+    },
+    {
+        "food_name": "Noodles",
+        "nutritional_values": {
+            "calories": 101.79,
+            "protein": 17.88,
+            "carbohydrates": 8.88,
+            "fat": 4.92,
+            "fiber": 4.63
+        },
+        "price_rate_per_kg": 247
+    },
+    {
+        "food_name": "Lasagna",
+        "nutritional_values": {
+            "calories": 84.84,
+            "protein": 41.01,
+            "carbohydrates": 21.1,
+            "fat": 35.81,
+            "fiber": 12.74
+        },
+        "price_rate_per_kg": 35
+    },
+    {
+        "food_name": "Ravioli",
+        "nutritional_values": {
+            "calories": 125.51,
+            "protein": 22.13,
+            "carbohydrates": 40.91,
+            "fat": 27.2,
+            "fiber": 17.09
+        },
+        "price_rate_per_kg": 158
+    },
+    {
+        "food_name": "Tortilla",
+        "nutritional_values": {
+            "calories": 107.84,
+            "protein": 16.83,
+            "carbohydrates": 25.3,
+            "fat": 22.16,
+            "fiber": 14.22
+        },
+        "price_rate_per_kg": 171
+    },
+    {
+        "food_name": "Sushi",
+        "nutritional_values": {
+            "calories": 375.89,
+            "protein": 13.07,
+            "carbohydrates": 21.63,
+            "fat": 31.94,
+            "fiber": 0.66
+        },
+        "price_rate_per_kg": 148
+    },
+    {
+        "food_name": "Pancakes",
+        "nutritional_values": {
+            "calories": 332.66,
+            "protein": 45.89,
+            "carbohydrates": 49.0,
+            "fat": 17.82,
+            "fiber": 3.76
+        },
+        "price_rate_per_kg": 249
+    },
+    {
+        "food_name": "Waffles",
+        "nutritional_values": {
+            "calories": 279.62,
+            "protein": 34.71,
+            "carbohydrates": 61.47,
+            "fat": 2.49,
+            "fiber": 11.58
+        },
+        "price_rate_per_kg": 139
+    },
+    {
+        "food_name": "Toast",
+        "nutritional_values": {
+            "calories": 57.28,
+            "protein": 24.98,
+            "carbohydrates": 10.34,
+            "fat": 30.74,
+            "fiber": 7.79
+        },
+        "price_rate_per_kg": 36
+    },
+    {
+        "food_name": "Chili Con Carne",
+        "nutritional_values": {
+            "calories": 376.78,
+            "protein": 34.38,
+            "carbohydrates": 98.76,
+            "fat": 32.74,
+            "fiber": 14.45
+        },
+        "price_rate_per_kg": 106
+    },
+    {
+        "food_name": "Sausage",
+        "nutritional_values": {
+            "calories": 258.7,
+            "protein": 14.57,
+            "carbohydrates": 12.65,
+            "fat": 11.36,
+            "fiber": 17.57
+        },
+        "price_rate_per_kg": 264
+    },
+    {
+        "food_name": "Meatball",
+        "nutritional_values": {
+            "calories": 103.56,
+            "protein": 31.41,
+            "carbohydrates": 38.35,
+            "fat": 11.86,
+            "fiber": 8.51
+        },
+        "price_rate_per_kg": 265
+    },
+    {
+        "food_name": "Biryani",
+        "nutritional_values": {
+            "calories": 427.31,
+            "protein": 47.01,
+            "carbohydrates": 4.27,
+            "fat": 31.22,
+            "fiber": 5.26
+        },
+        "price_rate_per_kg": 255
+    },
+    {
+        "food_name": "Pulao",
+        "nutritional_values": {
+            "calories": 263.71,
+            "protein": 17.87,
+            "carbohydrates": 56.35,
+            "fat": 12.12,
+            "fiber": 17.96
+        },
+        "price_rate_per_kg": 149
+    },
+    {
+        "food_name": "Curry",
+        "nutritional_values": {
+            "calories": 244.03,
+            "protein": 33.15,
+            "carbohydrates": 40.4,
+            "fat": 29.42,
+            "fiber": 10.37
+        },
+        "price_rate_per_kg": 270
+    },
+    {
+        "food_name": "Stew",
+        "nutritional_values": {
+            "calories": 108.98,
+            "protein": 46.51,
+            "carbohydrates": 91.22,
+            "fat": 14.1,
+            "fiber": 1.84
+        },
+        "price_rate_per_kg": 112
+    },
+    {
+        "food_name": "Roast Chicken",
+        "nutritional_values": {
+            "calories": 170.91,
+            "protein": 48.73,
+            "carbohydrates": 28.78,
+            "fat": 37.31,
+            "fiber": 11.11
+        },
+        "price_rate_per_kg": 171
+    },
+    {
+        "food_name": "Barbecue",
+        "nutritional_values": {
+            "calories": 149.52,
+            "protein": 6.13,
+            "carbohydrates": 15.03,
+            "fat": 34.26,
+            "fiber": 12.71
+        },
+        "price_rate_per_kg": 202
+    },
+    {
+        "food_name": "Grilled Fish",
+        "nutritional_values": {
+            "calories": 60.77,
+            "protein": 10.3,
+            "carbohydrates": 80.15,
+            "fat": 3.71,
+            "fiber": 6.7
+        },
+        "price_rate_per_kg": 239
+    },
+    {
+        "food_name": "Fried Chicken",
+        "nutritional_values": {
+            "calories": 475.22,
+            "protein": 47.11,
+            "carbohydrates": 39.12,
+            "fat": 33.35,
+            "fiber": 10.98
+        },
+        "price_rate_per_kg": 142
+    },
+    {
+        "food_name": "Fried Rice",
+        "nutritional_values": {
+            "calories": 494.99,
+            "protein": 47.07,
+            "carbohydrates": 30.95,
+            "fat": 33.13,
+            "fiber": 0.89
+        },
+        "price_rate_per_kg": 237
+    },
+    {
+        "food_name": "Burger",
+        "nutritional_values": {
+            "calories": 431.1,
+            "protein": 4.32,
+            "carbohydrates": 82.0,
+            "fat": 4.85,
+            "fiber": 11.56
+        },
+        "price_rate_per_kg": 291
+    },
+    {
+        "food_name": "Hot Dog",
+        "nutritional_values": {
+            "calories": 426.17,
+            "protein": 29.91,
+            "carbohydrates": 3.32,
+            "fat": 24.66,
+            "fiber": 16.43
+        },
+        "price_rate_per_kg": 182
+    },
+    {
+        "food_name": "Sandwich",
+        "nutritional_values": {
+            "calories": 227.44,
+            "protein": 36.69,
+            "carbohydrates": 19.74,
+            "fat": 29.19,
+            "fiber": 17.32
+        },
+        "price_rate_per_kg": 245
+    },
+    {
+        "food_name": "Wrap",
+        "nutritional_values": {
+            "calories": 301.36,
+            "protein": 46.98,
+            "carbohydrates": 39.86,
+            "fat": 30.63,
+            "fiber": 6.8
+        },
+        "price_rate_per_kg": 225
+    },
+    {
+        "food_name": "Spring Rolls",
+        "nutritional_values": {
+            "calories": 111.03,
+            "protein": 32.98,
+            "carbohydrates": 1.01,
+            "fat": 0.91,
+            "fiber": 14.89
+        },
+        "price_rate_per_kg": 99
+    },
+    {
+        "food_name": "Dumplings",
+        "nutritional_values": {
+            "calories": 483.77,
+            "protein": 17.37,
+            "carbohydrates": 29.17,
+            "fat": 48.74,
+            "fiber": 0.37
+        },
+        "price_rate_per_kg": 93
+    },
+    {
+        "food_name": "Samosa",
+        "nutritional_values": {
+            "calories": 431.38,
+            "protein": 23.55,
+            "carbohydrates": 42.22,
+            "fat": 23.02,
+            "fiber": 1.48
+        },
+        "price_rate_per_kg": 141
+    },
+    {
+        "food_name": "Pakora",
+        "nutritional_values": {
+            "calories": 413.66,
+            "protein": 42.24,
+            "carbohydrates": 44.74,
+            "fat": 23.21,
+            "fiber": 4.24
+        },
+        "price_rate_per_kg": 109
+    },
+    {
+        "food_name": "Fried Fish",
+        "nutritional_values": {
+            "calories": 450.92,
+            "protein": 48.01,
+            "carbohydrates": 42.19,
+            "fat": 24.81,
+            "fiber": 14.16
+        },
+        "price_rate_per_kg": 94
+    },
+    {
+        "food_name": "Fried Shrimp",
+        "nutritional_values": {
+            "calories": 113.02,
+            "protein": 7.32,
+            "carbohydrates": 23.28,
+            "fat": 24.13,
+            "fiber": 6.38
+        },
+        "price_rate_per_kg": 174
+    },
+    {
+        "food_name": "Fried Tofu",
+        "nutritional_values": {
+            "calories": 86.12,
+            "protein": 31.49,
+            "carbohydrates": 78.86,
+            "fat": 22.9,
+            "fiber": 17.15
+        },
+        "price_rate_per_kg": 252
+    },
+    {
+        "food_name": "Falafel",
+        "nutritional_values": {
+            "calories": 98.22,
+            "protein": 14.08,
+            "carbohydrates": 36.53,
+            "fat": 45.66,
+            "fiber": 2.63
+        },
+        "price_rate_per_kg": 99
+    },
+    {
+        "food_name": "Hummus",
+        "nutritional_values": {
+            "calories": 69.44,
+            "protein": 46.49,
+            "carbohydrates": 33.99,
+            "fat": 41.79,
+            "fiber": 11.59
+        },
+        "price_rate_per_kg": 210
+    },
+    {
+        "food_name": "Focaccia",
+        "nutritional_values": {
+            "calories": 236.21,
+            "protein": 41.23,
+            "carbohydrates": 19.34,
+            "fat": 12.57,
+            "fiber": 0.76
+        },
+        "price_rate_per_kg": 40
+    },
+    {
+        "food_name": "Bagel",
+        "nutritional_values": {
+            "calories": 201.23,
+            "protein": 12.69,
+            "carbohydrates": 29.52,
+            "fat": 45.57,
+            "fiber": 12.2
+        },
+        "price_rate_per_kg": 300
+    },
+    {
+        "food_name": "Nachos",
+        "nutritional_values": {
+            "calories": 62.72,
+            "protein": 37.97,
+            "carbohydrates": 67.16,
+            "fat": 45.96,
+            "fiber": 6.08
+        },
+        "price_rate_per_kg": 123
+    },
+    {
+        "food_name": "Churros",
+        "nutritional_values": {
+            "calories": 107.27,
+            "protein": 19.0,
+            "carbohydrates": 28.2,
+            "fat": 21.2,
+            "fiber": 9.81
+        },
+        "price_rate_per_kg": 57
+    },
+    {
+        "food_name": "Popcorn",
+        "nutritional_values": {
+            "calories": 269.91,
+            "protein": 30.28,
+            "carbohydrates": 17.89,
+            "fat": 36.57,
+            "fiber": 18.16
+        },
+        "price_rate_per_kg": 136
+    },
+    {
+        "food_name": "Tacos",
+        "nutritional_values": {
+            "calories": 63.14,
+            "protein": 33.79,
+            "carbohydrates": 88.07,
+            "fat": 31.31,
+            "fiber": 7.96
+        },
+        "price_rate_per_kg": 160
+    },
+    {
+        "food_name": "Quesadilla",
+        "nutritional_values": {
+            "calories": 136.94,
+            "protein": 8.76,
+            "carbohydrates": 75.02,
+            "fat": 48.58,
+            "fiber": 12.25
+        },
+        "price_rate_per_kg": 134
+    },
+    {
+        "food_name": "Tzatziki",
+        "nutritional_values": {
+            "calories": 335.98,
+            "protein": 15.63,
+            "carbohydrates": 47.82,
+            "fat": 16.3,
+            "fiber": 10.03
+        },
+        "price_rate_per_kg": 42
+    },
+    {
+        "food_name": "Pita Bread",
+        "nutritional_values": {
+            "calories": 43.46,
+            "protein": 9.66,
+            "carbohydrates": 53.58,
+            "fat": 27.29,
+            "fiber": 8.78
+        },
+        "price_rate_per_kg": 44
+    },
+    {
+        "food_name": "Pav Bhaji",
+        "nutritional_values": {
+            "calories": 225.89,
+            "protein": 11.54,
+            "carbohydrates": 94.06,
+            "fat": 19.17,
+            "fiber": 3.84
+        },
+        "price_rate_per_kg": 100
+    },
+    {
+        "food_name": "Dosa",
+        "nutritional_values": {
+            "calories": 44.32,
+            "protein": 29.09,
+            "carbohydrates": 38.03,
+            "fat": 23.14,
+            "fiber": 19.34
+        },
+        "price_rate_per_kg": 151
+    },
+    {
+        "food_name": "Idli",
+        "nutritional_values": {
+            "calories": 200.2,
+            "protein": 6.88,
+            "carbohydrates": 66.95,
+            "fat": 25.94,
+            "fiber": 17.2
+        },
+        "price_rate_per_kg": 138
+    },
+    {
+        "food_name": "Sambar",
+        "nutritional_values": {
+            "calories": 392.87,
+            "protein": 49.98,
+            "carbohydrates": 65.18,
+            "fat": 32.92,
+            "fiber": 1.39
+        },
+        "price_rate_per_kg": 258
+    },
+    {
+        "food_name": "Pani Puri",
+        "nutritional_values": {
+            "calories": 351.97,
+            "protein": 49.59,
+            "carbohydrates": 92.16,
+            "fat": 37.33,
+            "fiber": 9.13
+        },
+        "price_rate_per_kg": 80
+    },
+    {
+        "food_name": "Gol Gappa",
+        "nutritional_values": {
+            "calories": 204.91,
+            "protein": 10.34,
+            "carbohydrates": 54.27,
+            "fat": 48.86,
+            "fiber": 3.27
+        },
+        "price_rate_per_kg": 30
+    },
+    {
+        "food_name": "Chaat",
+        "nutritional_values": {
+            "calories": 421.01,
+            "protein": 5.17,
+            "carbohydrates": 48.98,
+            "fat": 14.25,
+            "fiber": 3.61
+        },
+        "price_rate_per_kg": 101
+    },
+    {
+        "food_name": "Chole Bhature",
+        "nutritional_values": {
+            "calories": 146.67,
+            "protein": 29.06,
+            "carbohydrates": 84.67,
+            "fat": 25.92,
+            "fiber": 8.51
+        },
+        "price_rate_per_kg": 199
+    },
+    {
+        "food_name": "Aloo Gobi",
+        "nutritional_values": {
+            "calories": 445.15,
+            "protein": 47.32,
+            "carbohydrates": 43.95,
+            "fat": 8.84,
+            "fiber": 15.57
+        },
+        "price_rate_per_kg": 50
+    },
+    {
+        "food_name": "Aloo Tikki",
+        "nutritional_values": {
+            "calories": 115.37,
+            "protein": 7.86,
+            "carbohydrates": 48.01,
+            "fat": 35.52,
+            "fiber": 5.11
+        },
+        "price_rate_per_kg": 294
+    },
+    {
+        "food_name": "Paneer",
+        "nutritional_values": {
+            "calories": 52.0,
+            "protein": 27.0,
+            "carbohydrates": 0.99,
+            "fat": 21.24,
+            "fiber": 6.4
+        },
+        "price_rate_per_kg": 37
+    },
+    {
+        "food_name": "Tandoori Chicken",
+        "nutritional_values": {
+            "calories": 257.86,
+            "protein": 49.05,
+            "carbohydrates": 98.31,
+            "fat": 31.72,
+            "fiber": 2.72
+        },
+        "price_rate_per_kg": 300
+    },
+    {
+        "food_name": "Paneer Butter Masala",
+        "nutritional_values": {
+            "calories": 277.83,
+            "protein": 11.6,
+            "carbohydrates": 73.82,
+            "fat": 31.06,
+            "fiber": 5.28
+        },
+        "price_rate_per_kg": 117
+    },
+    {
+        "food_name": "Butter Chicken",
+        "nutritional_values": {
+            "calories": 77.75,
+            "protein": 39.04,
+            "carbohydrates": 36.32,
+            "fat": 1.04,
+            "fiber": 9.36
+        },
+        "price_rate_per_kg": 30
+    },
+    {
+        "food_name": "Dal Makhani",
+        "nutritional_values": {
+            "calories": 56.24,
+            "protein": 47.04,
+            "carbohydrates": 99.59,
+            "fat": 15.43,
+            "fiber": 2.86
+        },
+        "price_rate_per_kg": 41
+    },
+    {
+        "food_name": "Korma",
+        "nutritional_values": {
+            "calories": 59.68,
+            "protein": 11.43,
+            "carbohydrates": 58.62,
+            "fat": 45.17,
+            "fiber": 4.04
+        },
+        "price_rate_per_kg": 50
+    },
+    {
+        "food_name": "Kebabs",
+        "nutritional_values": {
+            "calories": 210.1,
+            "protein": 48.95,
+            "carbohydrates": 53.95,
+            "fat": 42.78,
+            "fiber": 13.82
+        },
+        "price_rate_per_kg": 110
+    },
+    {
+        "food_name": "Samosa Chaat",
+        "nutritional_values": {
+            "calories": 236.23,
+            "protein": 42.51,
+            "carbohydrates": 63.68,
+            "fat": 28.82,
+            "fiber": 1.49
+        },
+        "price_rate_per_kg": 127
+    },
+    {
+        "food_name": "Pasta Primavera",
+        "nutritional_values": {
+            "calories": 316.66,
+            "protein": 6.35,
+            "carbohydrates": 29.53,
+            "fat": 4.81,
+            "fiber": 10.6
+        },
+        "price_rate_per_kg": 197
+    },
+    {
+        "food_name": "Carbonara",
+        "nutritional_values": {
+            "calories": 319.38,
+            "protein": 27.51,
+            "carbohydrates": 35.73,
+            "fat": 20.42,
+            "fiber": 4.71
+        },
+        "price_rate_per_kg": 163
+    },
+    {
+        "food_name": "Fettuccine",
+        "nutritional_values": {
+            "calories": 226.55,
+            "protein": 40.55,
+            "carbohydrates": 0.94,
+            "fat": 45.5,
+            "fiber": 5.85
+        },
+        "price_rate_per_kg": 204
+    },
+    {
+        "food_name": "Baked Beans",
+        "nutritional_values": {
+            "calories": 365.08,
+            "protein": 43.51,
+            "carbohydrates": 21.45,
+            "fat": 27.95,
+            "fiber": 7.63
+        },
+        "price_rate_per_kg": 91
+    },
+    {
+        "food_name": "Kimchi",
+        "nutritional_values": {
+            "calories": 109.32,
+            "protein": 19.65,
+            "carbohydrates": 14.93,
+            "fat": 12.9,
+            "fiber": 4.63
+        },
+        "price_rate_per_kg": 244
+    },
+    {
+        "food_name": "Chili Sauce",
+        "nutritional_values": {
+            "calories": 88.08,
+            "protein": 29.95,
+            "carbohydrates": 57.06,
+            "fat": 24.31,
+            "fiber": 15.6
+        },
+        "price_rate_per_kg": 106
+    },
+    {
+        "food_name": "Tandoori Roti",
+        "nutritional_values": {
+            "calories": 156.69,
+            "protein": 20.22,
+            "carbohydrates": 34.82,
+            "fat": 37.14,
+            "fiber": 9.05
+        },
+        "price_rate_per_kg": 205
+    },
+    {
+        "food_name": "Garlic Bread",
+        "nutritional_values": {
+            "calories": 250.34,
+            "protein": 38.14,
+            "carbohydrates": 52.91,
+            "fat": 7.67,
+            "fiber": 14.98
+        },
+        "price_rate_per_kg": 190
+    },
+    {
+        "food_name": "Chapati",
+        "nutritional_values": {
+            "calories": 426.47,
+            "protein": 39.8,
+            "carbohydrates": 36.0,
+            "fat": 19.31,
+            "fiber": 5.97
+        },
+        "price_rate_per_kg": 249
+    },
+    {
+        "food_name": "Naan",
+        "nutritional_values": {
+            "calories": 397.35,
+            "protein": 33.7,
+            "carbohydrates": 19.61,
+            "fat": 29.24,
+            "fiber": 8.05
+        },
+        "price_rate_per_kg": 177
+    },
+    {
+        "food_name": "Paratha",
+        "nutritional_values": {
+            "calories": 421.92,
+            "protein": 37.27,
+            "carbohydrates": 77.74,
+            "fat": 39.9,
+            "fiber": 11.01
+        },
+        "price_rate_per_kg": 288
+    },
+    {
+        "food_name": "Rumali Roti",
+        "nutritional_values": {
+            "calories": 329.04,
+            "protein": 22.95,
+            "carbohydrates": 95.59,
+            "fat": 24.52,
+            "fiber": 7.13
+        },
+        "price_rate_per_kg": 33
+    },
+    {
+        "food_name": "Sheermal",
+        "nutritional_values": {
+            "calories": 349.47,
+            "protein": 6.79,
+            "carbohydrates": 75.43,
+            "fat": 48.76,
+            "fiber": 13.43
+        },
+        "price_rate_per_kg": 267
+    },
+    {
+        "food_name": "Dahi Puri",
+        "nutritional_values": {
+            "calories": 351.95,
+            "protein": 24.74,
+            "carbohydrates": 71.03,
+            "fat": 27.63,
+            "fiber": 0.24
+        },
+        "price_rate_per_kg": 163
+    },
+    {
+        "food_name": "Macher Jhol",
+        "nutritional_values": {
+            "calories": 61.51,
+            "protein": 33.85,
+            "carbohydrates": 70.58,
+            "fat": 9.85,
+            "fiber": 13.67
+        },
+        "price_rate_per_kg": 287
+    },
+    {
+        "food_name": "Bong Fish Fry",
+        "nutritional_values": {
+            "calories": 371.35,
+            "protein": 12.81,
+            "carbohydrates": 26.26,
+            "fat": 2.69,
+            "fiber": 18.47
+        },
+        "price_rate_per_kg": 48
+    },
+    {
+        "food_name": "Macher Bhorta",
+        "nutritional_values": {
+            "calories": 236.81,
+            "protein": 49.95,
+            "carbohydrates": 35.2,
+            "fat": 47.95,
+            "fiber": 14.91
+        },
+        "price_rate_per_kg": 92
+    },
+    {
+        "food_name": "Kathi Roll",
+        "nutritional_values": {
+            "calories": 81.69,
+            "protein": 5.73,
+            "carbohydrates": 96.97,
+            "fat": 46.08,
+            "fiber": 4.93
+        },
+        "price_rate_per_kg": 182
+    },
+    {
+        "food_name": "Chingri Malai Curry",
+        "nutritional_values": {
+            "calories": 165.05,
+            "protein": 16.21,
+            "carbohydrates": 22.99,
+            "fat": 26.56,
+            "fiber": 14.94
+        },
+        "price_rate_per_kg": 192
+    },
+    {
+        "food_name": "Macher Kalia",
+        "nutritional_values": {
+            "calories": 181.62,
+            "protein": 12.11,
+            "carbohydrates": 37.06,
+            "fat": 42.14,
+            "fiber": 17.91
+        },
+        "price_rate_per_kg": 156
+    },
+    {
+        "food_name": "Roshogolla",
+        "nutritional_values": {
+            "calories": 341.62,
+            "protein": 35.4,
+            "carbohydrates": 53.11,
+            "fat": 9.24,
+            "fiber": 4.39
+        },
+        "price_rate_per_kg": 128
+    },
+    {
+        "food_name": "Mishti Doi",
+        "nutritional_values": {
+            "calories": 238.27,
+            "protein": 11.82,
+            "carbohydrates": 74.91,
+            "fat": 32.86,
+            "fiber": 1.71
+        },
+        "price_rate_per_kg": 72
+    },
+    {
+        "food_name": "Sandesh",
+        "nutritional_values": {
+            "calories": 289.06,
+            "protein": 27.71,
+            "carbohydrates": 20.69,
+            "fat": 18.33,
+            "fiber": 3.18
+        },
+        "price_rate_per_kg": 134
+    },
+    {
+        "food_name": "Chamcham",
+        "nutritional_values": {
+            "calories": 122.1,
+            "protein": 20.05,
+            "carbohydrates": 68.1,
+            "fat": 5.57,
+            "fiber": 10.31
+        },
+        "price_rate_per_kg": 140
+    },
+    {
+        "food_name": "Kulfi",
+        "nutritional_values": {
+            "calories": 278.32,
+            "protein": 7.05,
+            "carbohydrates": 0.45,
+            "fat": 24.04,
+            "fiber": 10.22
+        },
+        "price_rate_per_kg": 239
+    },
+    {
+        "food_name": "Shahi Tukda",
+        "nutritional_values": {
+            "calories": 43.37,
+            "protein": 21.7,
+            "carbohydrates": 26.79,
+            "fat": 2.76,
+            "fiber": 9.21
+        },
+        "price_rate_per_kg": 287
+    },
+    {
+        "food_name": "Kheer",
+        "nutritional_values": {
+            "calories": 341.61,
+            "protein": 29.26,
+            "carbohydrates": 15.72,
+            "fat": 27.12,
+            "fiber": 11.76
+        },
+        "price_rate_per_kg": 266
+    },
+    {
+        "food_name": "Payesh",
+        "nutritional_values": {
+            "calories": 277.31,
+            "protein": 19.27,
+            "carbohydrates": 85.77,
+            "fat": 15.19,
+            "fiber": 3.02
+        },
+        "price_rate_per_kg": 148
+    },
+    {
+        "food_name": "Lassi",
+        "nutritional_values": {
+            "calories": 410.02,
+            "protein": 25.73,
+            "carbohydrates": 54.7,
+            "fat": 26.03,
+            "fiber": 11.13
+        },
+        "price_rate_per_kg": 253
+    },
+    {
+        "food_name": "Chaas",
+        "nutritional_values": {
+            "calories": 349.96,
+            "protein": 38.37,
+            "carbohydrates": 75.75,
+            "fat": 10.41,
+            "fiber": 18.31
+        },
+        "price_rate_per_kg": 96
+    },
+    {
+        "food_name": "Buttermilk",
+        "nutritional_values": {
+            "calories": 124.22,
+            "protein": 36.82,
+            "carbohydrates": 91.69,
+            "fat": 42.55,
+            "fiber": 7.89
+        },
+        "price_rate_per_kg": 218
+    },
+    {
+        "food_name": "Sherbet",
+        "nutritional_values": {
+            "calories": 165.52,
+            "protein": 27.06,
+            "carbohydrates": 57.06,
+            "fat": 43.68,
+            "fiber": 1.29
+        },
+        "price_rate_per_kg": 85
+    },
+    {
+        "food_name": "Sweets",
+        "nutritional_values": {
+            "calories": 314.56,
+            "protein": 48.64,
+            "carbohydrates": 18.66,
+            "fat": 4.6,
+            "fiber": 13.43
+        },
+        "price_rate_per_kg": 92
+    },
+    {
+        "food_name": "Fruit Salad",
+        "nutritional_values": {
+            "calories": 473.42,
+            "protein": 40.29,
+            "carbohydrates": 88.15,
+            "fat": 36.91,
+            "fiber": 11.45
+        },
+        "price_rate_per_kg": 64
+    },
+    {
+        "food_name": "Pudding",
+        "nutritional_values": {
+            "calories": 333.17,
+            "protein": 4.07,
+            "carbohydrates": 74.34,
+            "fat": 30.81,
+            "fiber": 8.31
+        },
+        "price_rate_per_kg": 233
+    },
+    {
+        "food_name": "Mousse",
+        "nutritional_values": {
+            "calories": 285.12,
+            "protein": 48.25,
+            "carbohydrates": 67.36,
+            "fat": 18.98,
+            "fiber": 11.77
+        },
+        "price_rate_per_kg": 285
+    },
+    {
+        "food_name": "Apple Pie",
+        "nutritional_values": {
+            "calories": 472.43,
+            "protein": 12.83,
+            "carbohydrates": 56.95,
+            "fat": 42.61,
+            "fiber": 1.31
+        },
+        "price_rate_per_kg": 296
+    },
+    {
+        "food_name": "Brownie",
+        "nutritional_values": {
+            "calories": 339.37,
+            "protein": 2.54,
+            "carbohydrates": 37.84,
+            "fat": 26.41,
+            "fiber": 15.72
+        },
+        "price_rate_per_kg": 127
+    },
+    {
+        "food_name": "Cupcake",
+        "nutritional_values": {
+            "calories": 132.71,
+            "protein": 40.49,
+            "carbohydrates": 72.2,
+            "fat": 10.76,
+            "fiber": 13.5
+        },
+        "price_rate_per_kg": 135
+    }
+]

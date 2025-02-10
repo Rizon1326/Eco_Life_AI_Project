@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pydantic
+transformers
+pillow
+requests
+groq
+python-dotenv
+torch
+torchvision
+google-generativeai

@@ -1,0 +1,2410 @@
+[
+    {
+        "label": "syringe",
+        "type": "Medical Waste",
+        "description": "Used medical devices.",
+        "harmful_scale": 10,
+        "harmful_effects": "Spreads infections and diseases if not disposed of properly.",
+        "recyclable": false
+    },
+    {
+        "label": "food scraps",
+        "type": "Organic",
+        "description": "Leftover food waste from households and industries.",
+        "harmful_scale": 2,
+        "harmful_effects": "Can produce methane if not properly composted.",
+        "recyclable": true
+    },
+    {
+        "label": "plastic bottles",
+        "type": "Plastic",
+        "description": "Bottles made from plastic materials like PET.",
+        "harmful_scale": 8,
+        "harmful_effects": "Takes centuries to decompose and pollutes ecosystems.",
+        "recyclable": true
+    },
+    {
+        "label": "cardboard",
+        "type": "Paper",
+        "description": "Thick paper material used for packaging.",
+        "harmful_scale": 2,
+        "harmful_effects": "Can clog landfills but decomposes relatively quickly.",
+        "recyclable": true
+    },
+    {
+        "label": "glass jars",
+        "type": "Glass",
+        "description": "Jars made of glass used for storing food and other items.",
+        "harmful_scale": 3,
+        "harmful_effects": "Non-biodegradable but not chemically harmful.",
+        "recyclable": true
+    },
+    {
+        "label": "old newspapers",
+        "type": "Paper",
+        "description": "Printed papers used for news and advertisements.",
+        "harmful_scale": 1,
+        "harmful_effects": "Minimal environmental impact if properly disposed of.",
+        "recyclable": true
+    },
+    {
+        "label": "broken furniture",
+        "type": "Wood/Plastic",
+        "description": "Discarded furniture made from wood, metal, or plastic.",
+        "harmful_scale": 4,
+        "harmful_effects": "Takes up landfill space; can release toxins if made from treated materials.",
+        "recyclable": true
+    },
+    {
+        "label": "garden waste",
+        "type": "Organic",
+        "description": "Waste such as grass clippings, leaves, and branches.",
+        "harmful_scale": 1,
+        "harmful_effects": "Minimal impact, decomposes naturally.",
+        "recyclable": false
+    },
+    {
+        "label": "paper towels",
+        "type": "Paper",
+        "description": "Disposable towels made from paper.",
+        "harmful_scale": 2,
+        "harmful_effects": "Not always recyclable due to contamination.",
+        "recyclable": false
+    },
+    {
+        "label": "disposable diapers",
+        "type": "Plastic/Organic",
+        "description": "Single-use diapers made of plastic and absorbent materials.",
+        "harmful_scale": 9,
+        "harmful_effects": "Non-biodegradable and contributes significantly to landfill waste.",
+        "recyclable": false
+    },
+    {
+        "label": "aluminum cans",
+        "type": "Metal",
+        "description": "Cans made from aluminum used for beverages and food.",
+        "harmful_scale": 4,
+        "harmful_effects": "Energy-intensive to produce but highly recyclable.",
+        "recyclable": true
+    },
+    {
+        "label": "slag",
+        "type": "Industrial",
+        "description": "By-product of metal smelting and refining.",
+        "harmful_scale": 6,
+        "harmful_effects": "Can release harmful heavy metals into the environment.",
+        "recyclable": true
+    },
+    {
+        "label": "industrial solvents",
+        "type": "Chemical",
+        "description": "Chemicals used in industrial cleaning and processing.",
+        "harmful_scale": 9,
+        "harmful_effects": "Highly toxic and can contaminate soil and water.",
+        "recyclable": false
+    },
+    {
+        "label": "scrap metal",
+        "type": "Metal",
+        "description": "Discarded metal materials from industrial processes.",
+        "harmful_scale": 4,
+        "harmful_effects": "Takes up landfill space if not recycled.",
+        "recyclable": true
+    },
+    {
+        "label": "packaging materials",
+        "type": "Plastic/Paper",
+        "description": "Materials used for packaging products.",
+        "harmful_scale": 5,
+        "harmful_effects": "Can pollute if made from non-biodegradable materials.",
+        "recyclable": true
+    },
+    {
+        "label": "chemical residues",
+        "type": "Chemical",
+        "description": "Leftover chemicals from industrial or laboratory processes.",
+        "harmful_scale": 10,
+        "harmful_effects": "Highly hazardous to the environment and human health.",
+        "recyclable": false
+    },
+    {
+        "label": "ash from incinerators",
+        "type": "Ash",
+        "description": "Residual ash from waste incineration.",
+        "harmful_scale": 6,
+        "harmful_effects": "Can contain toxic materials like dioxins and heavy metals.",
+        "recyclable": false
+    },
+    {
+        "label": "contaminated soil",
+        "type": "Soil",
+        "description": "Soil polluted by chemicals or hazardous materials.",
+        "harmful_scale": 8,
+        "harmful_effects": "Can lead to groundwater contamination.",
+        "recyclable": false
+    },
+    {
+        "label": "textile waste",
+        "type": "Fabric",
+        "description": "Discarded clothing and textile materials.",
+        "harmful_scale": 5,
+        "harmful_effects": "Can take years to decompose and may release microplastics.",
+        "recyclable": true
+    },
+    {
+        "label": "construction debris",
+        "type": "Concrete/Wood/Metal",
+        "description": "Waste generated from construction and demolition.",
+        "harmful_scale": 4,
+        "harmful_effects": "Occupies large volumes in landfills.",
+        "recyclable": true
+    },
+    {
+        "label": "rubber waste",
+        "type": "Rubber",
+        "description": "Discarded materials made of rubber such as tires.",
+        "harmful_scale": 6,
+        "harmful_effects": "Can leach harmful chemicals into the environment.",
+        "recyclable": true
+    },
+    {
+        "label": "batteries",
+        "type": "Hazardous",
+        "description": "Used batteries of various types, including alkaline, lithium-ion, and lead-acid.",
+        "harmful_scale": 8,
+        "harmful_effects": "Leaches toxic metals like lead, mercury, and cadmium into the soil and water.",
+        "recyclable": true
+    },
+    {
+        "label": "asbestos",
+        "type": "Hazardous",
+        "description": "A fibrous silicate material used in building materials and insulation.",
+        "harmful_scale": 10,
+        "harmful_effects": "Causes severe respiratory diseases, including cancer.",
+        "recyclable": false
+    },
+    {
+        "label": "pesticides",
+        "type": "Chemical",
+        "description": "Chemicals used to kill pests in agriculture.",
+        "harmful_scale": 9,
+        "harmful_effects": "Contaminates water, harms beneficial organisms, and poses health risks.",
+        "recyclable": false
+    },
+    {
+        "label": "paints",
+        "type": "Chemical",
+        "description": "Liquid coatings used on surfaces; can contain lead or other harmful substances.",
+        "harmful_scale": 7,
+        "harmful_effects": "Releases toxic fumes and pollutes water bodies.",
+        "recyclable": false
+    },
+    {
+        "label": "used motor oil",
+        "type": "Chemical",
+        "description": "Lubricant oil that has been used in engines and contains contaminants.",
+        "harmful_scale": 8,
+        "harmful_effects": "Contaminates soil and water, harming ecosystems.",
+        "recyclable": true
+    },
+    {
+        "label": "medical sharps",
+        "type": "Biomedical",
+        "description": "Needles, syringes, and other sharp medical tools.",
+        "harmful_scale": 9,
+        "harmful_effects": "Can spread infections and pose physical hazards.",
+        "recyclable": false
+    },
+    {
+        "label": "mercury-containing devices",
+        "type": "Hazardous",
+        "description": "Devices such as thermometers and fluorescent bulbs that contain mercury.",
+        "harmful_scale": 10,
+        "harmful_effects": "Highly toxic; damages nervous systems and ecosystems.",
+        "recyclable": true
+    },
+    {
+        "label": "lead-based paint chips",
+        "type": "Hazardous",
+        "description": "Paint chips containing lead, often from older buildings.",
+        "harmful_scale": 9,
+        "harmful_effects": "Causes lead poisoning and developmental issues in children.",
+        "recyclable": false
+    },
+    {
+        "label": "pharmaceuticals",
+        "type": "Biomedical",
+        "description": "Expired or unused medications.",
+        "harmful_scale": 7,
+        "harmful_effects": "Pollutes water systems and harms aquatic life.",
+        "recyclable": false
+    },
+    {
+        "label": "radioactive materials",
+        "type": "Hazardous",
+        "description": "Materials emitting radiation, often from nuclear energy or medical applications.",
+        "harmful_scale": 10,
+        "harmful_effects": "Causes severe health issues and long-term environmental contamination.",
+        "recyclable": false
+    },
+    {
+        "label": "old computers",
+        "type": "E-Waste",
+        "description": "Non-functional computers with electronic components.",
+        "harmful_scale": 6,
+        "harmful_effects": "Contains metals and chemicals that can harm the environment.",
+        "recyclable": true
+    },
+    {
+        "label": "mobile phones",
+        "type": "E-Waste",
+        "description": "Non-functional smartphones and basic phones.",
+        "harmful_scale": 6,
+        "harmful_effects": "Contains toxic metals like cadmium and arsenic.",
+        "recyclable": true
+    },
+    {
+        "label": "CRT monitors",
+        "type": "E-Waste",
+        "description": "Cathode-ray tube monitors from old computers and TVs.",
+        "harmful_scale": 8,
+        "harmful_effects": "Contains leaded glass and harmful metals.",
+        "recyclable": true
+    },
+    {
+        "label": "crop residues",
+        "type": "Agricultural",
+        "description": "Leftover plant material after harvesting crops.",
+        "harmful_scale": 2,
+        "harmful_effects": "Minimal impact; can contribute to greenhouse gases if burned.",
+        "recyclable": true
+    },
+    {
+        "label": "manure",
+        "type": "Agricultural",
+        "description": "Animal waste used as a natural fertilizer.",
+        "harmful_scale": 1,
+        "harmful_effects": "Can pollute water if mismanaged but generally beneficial.",
+        "recyclable": true
+    },
+    {
+        "label": "pesticide containers",
+        "type": "Agricultural",
+        "description": "Empty containers used to hold pesticides.",
+        "harmful_scale": 8,
+        "harmful_effects": "Toxic residue can contaminate soil and water.",
+        "recyclable": false
+    },
+    {
+        "label": "animal bones",
+        "type": "Agricultural",
+        "description": "Bones left from animal farming or food processing.",
+        "harmful_scale": 2,
+        "harmful_effects": "Decomposes naturally but can attract pests.",
+        "recyclable": true
+    },
+    {
+        "label": "fish offal",
+        "type": "Agricultural",
+        "description": "Waste from fish processing, including scales and internal organs.",
+        "harmful_scale": 3,
+        "harmful_effects": "Decomposes naturally but can produce unpleasant odors.",
+        "recyclable": true
+    },
+    {
+        "label": "fruit peels",
+        "type": "Agricultural",
+        "description": "Peels and skins of fruits, usually organic waste.",
+        "harmful_scale": 1,
+        "harmful_effects": "Minimal impact; decomposes quickly.",
+        "recyclable": true
+    },{
+        "label": "LED bulb",
+        "type": "Electronic",
+        "description": "Light-emitting diode bulbs used for lighting.",
+        "harmful_scale": 4,
+        "harmful_effects": "Can release toxic materials like lead and arsenic if improperly disposed of.",
+        "recyclable": true
+    },
+    {
+        "label": "Circuit board",
+        "type": "Electronic",
+        "description": "Printed circuit boards used in electronic devices.",
+        "harmful_scale": 8,
+        "harmful_effects": "Contains hazardous materials like mercury and cadmium, harmful to soil and water.",
+        "recyclable": true
+    },
+    {
+        "label": "Power cable",
+        "type": "Electronic",
+        "description": "Cables used to transmit electrical power.",
+        "harmful_scale": 5,
+        "harmful_effects": "Plastic insulation can persist in the environment, and copper extraction can cause harm.",
+        "recyclable": true
+    },
+    {
+        "label": "Keyboard",
+        "type": "Electronic",
+        "description": "Input device for computers.",
+        "harmful_scale": 4,
+        "harmful_effects": "Plastic and electronic parts can contribute to e-waste pollution.",
+        "recyclable": true
+    },
+    {
+        "label": "Printer",
+        "type": "Electronic",
+        "description": "Device for printing documents and images.",
+        "harmful_scale": 6,
+        "harmful_effects": "Contains hazardous materials and produces plastic waste.",
+        "recyclable": true
+    },
+    {
+        "label": "Gaming console",
+        "type": "Electronic",
+        "description": "Electronic device for playing video games.",
+        "harmful_scale": 7,
+        "harmful_effects": "Non-biodegradable materials can harm ecosystems.",
+        "recyclable": true
+    },
+    {
+        "label": "Hard drive",
+        "type": "Electronic",
+        "description": "Data storage device used in computers.",
+        "harmful_scale": 5,
+        "harmful_effects": "Contains metals and toxic chemicals that can pollute the environment.",
+        "recyclable": true
+    },
+    {
+        "label": "Spilled seed",
+        "type": "Agricultural",
+        "description": "Seeds spilled during transportation or processing.",
+        "harmful_scale": 1,
+        "harmful_effects": "Minimal impact; can sprout and grow naturally.",
+        "recyclable": false
+    },
+    {
+        "label": "Hay residue",
+        "type": "Agricultural",
+        "description": "Leftover hay from agricultural activities.",
+        "harmful_scale": 1,
+        "harmful_effects": "Minimal impact; decomposes and can be used as compost.",
+        "recyclable": false
+    },
+    {
+        "label": "Dead plant",
+        "type": "Organic",
+        "description": "Plant material that has died naturally.",
+        "harmful_scale": 1,
+        "harmful_effects": "Decomposes naturally and enriches the soil.",
+        "recyclable": false
+    },
+    {
+        "label": "Fertilizer bag",
+        "type": "Plastic",
+        "description": "Plastic bag used for storing fertilizers.",
+        "harmful_scale": 6,
+        "harmful_effects": "Non-biodegradable plastic can persist in the environment and harm wildlife.",
+        "recyclable": true
+    },
+        {
+            "label": "bandages",
+            "type": "Biomedical",
+            "description": "Used medical bandages.",
+            "harmful_scale": 5,
+            "harmful_effects": "Can spread infections and contain biohazardous materials.",
+            "recyclable": false
+        },
+        {
+            "label": "used syringes",
+            "type": "Biomedical",
+            "description": "Discarded medical syringes.",
+            "harmful_scale": 8,
+            "harmful_effects": "Can cause needlestick injuries and spread diseases.",
+            "recyclable": false
+        },
+        {
+            "label": "surgical gloves",
+            "type": "Biomedical",
+            "description": "Disposable gloves used during medical procedures.",
+            "harmful_scale": 5,
+            "harmful_effects": "Can be contaminated with pathogens and hazardous materials.",
+            "recyclable": false
+        },
+        {
+            "label": "expired medications",
+            "type": "Biomedical",
+            "description": "Drugs that have passed their expiration date.",
+            "harmful_scale": 7,
+            "harmful_effects": "Can contaminate water and soil if not disposed of properly.",
+            "recyclable": false
+        },
+        {
+            "label": "IV drip bags",
+            "type": "Biomedical",
+            "description": "Plastic bags used for intravenous fluids.",
+            "harmful_scale": 6,
+            "harmful_effects": "Non-biodegradable and may contain residues of medication.",
+            "recyclable": false
+        },
+        {
+            "label": "blood-soaked cotton",
+            "type": "Biomedical",
+            "description": "Cotton used to absorb blood during medical procedures.",
+            "harmful_scale": 8,
+            "harmful_effects": "May carry infectious agents and biohazards.",
+            "recyclable": false
+        },
+        {
+            "label": "pathological waste",
+            "type": "Biomedical",
+            "description": "Biological tissues and organs from medical procedures.",
+            "harmful_scale": 9,
+            "harmful_effects": "Can spread diseases and has severe environmental impacts.",
+            "recyclable": false
+        },
+        {
+            "label": "diagnostic samples",
+            "type": "Biomedical",
+            "description": "Biological samples collected for testing.",
+            "harmful_scale": 7,
+            "harmful_effects": "Biohazard risk due to possible infectious material.",
+            "recyclable": false
+        },
+        {
+            "label": "PPE kits",
+            "type": "Biomedical",
+            "description": "Personal protective equipment used in medical settings.",
+            "harmful_scale": 6,
+            "harmful_effects": "Non-biodegradable and may carry contaminants.",
+            "recyclable": false
+        },
+        {
+            "label": "laboratory chemicals",
+            "type": "Biomedical",
+            "description": "Chemicals used in medical and diagnostic laboratories.",
+            "harmful_scale": 8,
+            "harmful_effects": "Toxic and can cause chemical pollution.",
+            "recyclable": false
+        },
+        {
+            "label": "concrete rubble",
+            "type": "Construction",
+            "description": "Broken concrete debris from demolition or construction.",
+            "harmful_scale": 3,
+            "harmful_effects": "Non-biodegradable but inert; can occupy landfill space.",
+            "recyclable": true
+        },
+        {
+            "label": "bricks",
+            "type": "Construction",
+            "description": "Clay or concrete bricks used in construction.",
+            "harmful_scale": 2,
+            "harmful_effects": "Minimal harm but contributes to waste volume.",
+            "recyclable": true
+        },
+        {
+            "label": "wood",
+            "type": "Construction",
+            "description": "Wood from construction or demolition.",
+            "harmful_scale": 2,
+            "harmful_effects": "Can decompose naturally but might release carbon.",
+            "recyclable": true
+        },
+        {
+            "label": "asbestos sheeting",
+            "type": "Construction",
+            "description": "Sheets made of asbestos used in older buildings.",
+            "harmful_scale": 9,
+            "harmful_effects": "Highly toxic, can cause lung diseases and cancer.",
+            "recyclable": false
+        },
+        {
+            "label": "steel bars",
+            "type": "Construction",
+            "description": "Steel reinforcements used in construction.",
+            "harmful_scale": 3,
+            "harmful_effects": "Non-toxic but adds to metallic waste if not recycled.",
+            "recyclable": true
+        },
+        {
+            "label": "tiles",
+            "type": "Construction",
+            "description": "Ceramic or stone tiles used for flooring.",
+            "harmful_scale": 3,
+            "harmful_effects": "Non-biodegradable and occupies landfill space.",
+            "recyclable": true
+        },
+        {
+            "label": "sand residue",
+            "type": "Construction",
+            "description": "Excess sand left after construction activities.",
+            "harmful_scale": 1,
+            "harmful_effects": "Minimal harm; can be reused in construction.",
+            "recyclable": true
+        },
+        {
+            "label": "glass panes",
+            "type": "Construction",
+            "description": "Glass sheets used in windows or construction.",
+            "harmful_scale": 4,
+            "harmful_effects": "Non-biodegradable and sharp; can cause injury.",
+            "recyclable": true
+        },
+        {
+            "label": "roofing materials",
+            "type": "Construction",
+            "description": "Materials like shingles and tar used for roofs.",
+            "harmful_scale": 6,
+            "harmful_effects": "May contain toxic chemicals and is non-biodegradable.",
+            "recyclable": true
+        },
+        {
+            "label": "insulation materials",
+            "type": "Construction",
+            "description": "Thermal and soundproofing materials used in buildings.",
+            "harmful_scale": 7,
+            "harmful_effects": "Non-biodegradable and may release harmful fibers or chemicals.",
+            "recyclable": false
+        },
+        {
+            "label": "fishing nets",
+            "type": "Marine Waste",
+            "description": "Nets used for fishing, often made of plastic.",
+            "harmful_scale": 8,
+            "harmful_effects": "Can entangle marine life and take centuries to degrade.",
+            "recyclable": true
+        },
+        {
+            "label": "oil spills",
+            "type": "Marine Waste",
+            "description": "Spilled oil in waterways, often from ships or pipelines.",
+            "harmful_scale": 10,
+            "harmful_effects": "Devastates marine ecosystems and contaminates water.",
+            "recyclable": false
+        },
+        {
+            "label": "plastic straws",
+            "type": "Plastic",
+            "description": "Single-use plastic straws.",
+            "harmful_scale": 7,
+            "harmful_effects": "Non-biodegradable; can harm marine animals when ingested.",
+            "recyclable": true
+        },
+        {
+            "label": "beverage cans",
+            "type": "Metal",
+            "description": "Cans made of aluminum or tin used for beverages.",
+            "harmful_scale": 4,
+            "harmful_effects": "Can contribute to pollution but are highly recyclable.",
+            "recyclable": true
+        },
+        {
+            "label": "discarded buoys",
+            "type": "Plastic",
+            "description": "Floating markers often made of durable plastic.",
+            "harmful_scale": 5,
+            "harmful_effects": "Can drift into ecosystems and harm marine life.",
+            "recyclable": true
+        },
+        {
+            "label": "food wrappers",
+            "type": "Plastic",
+            "description": "Single-use wrappers for snacks and other foods.",
+            "harmful_scale": 7,
+            "harmful_effects": "Contributes to microplastic pollution in waterways.",
+            "recyclable": false
+        },
+        {
+            "label": "cigarette butts",
+            "type": "Miscellaneous",
+            "description": "Filters and remnants of smoked cigarettes.",
+            "harmful_scale": 9,
+            "harmful_effects": "Contains toxic chemicals harmful to marine organisms.",
+            "recyclable": false
+        },
+        {
+            "label": "foam packaging",
+            "type": "Plastic",
+            "description": "Lightweight foam used in product packaging.",
+            "harmful_scale": 8,
+            "harmful_effects": "Breaks into microplastics, polluting water bodies.",
+            "recyclable": true
+        },
+        {
+            "label": "microplastics",
+            "type": "Plastic",
+            "description": "Tiny plastic particles found in water.",
+            "harmful_scale": 10,
+            "harmful_effects": "Ingested by marine life, causing toxic buildup in the food chain.",
+            "recyclable": false
+        },
+        {
+            "label": "derelict boats",
+            "type": "Metal",
+            "description": "Abandoned or damaged boats in waterways.",
+            "harmful_scale": 6,
+            "harmful_effects": "Leaches toxic materials and disrupts marine habitats.",
+            "recyclable": true
+        },
+        {
+            "label": "old clothing",
+            "type": "Textile",
+            "description": "Used or discarded garments.",
+            "harmful_scale": 4,
+            "harmful_effects": "Often ends up in landfills, taking years to decompose.",
+            "recyclable": true
+        },
+        {
+            "label": "fabric scraps",
+            "type": "Textile",
+            "description": "Leftover fabric from garment production.",
+            "harmful_scale": 3,
+            "harmful_effects": "Can contribute to textile waste if not recycled.",
+            "recyclable": true
+        },
+        {
+            "label": "leather trimmings",
+            "type": "Textile",
+            "description": "Scraps from leather production.",
+            "harmful_scale": 5,
+            "harmful_effects": "Non-biodegradable; can release harmful chemicals.",
+            "recyclable": true
+        },
+        {
+            "label": "dye sludge",
+            "type": "Chemical",
+            "description": "Waste byproduct from textile dyeing processes.",
+            "harmful_scale": 9,
+            "harmful_effects": "Highly toxic to water and soil.",
+            "recyclable": false
+        },
+        {
+            "label": "cotton waste",
+            "type": "Textile",
+            "description": "Residual cotton from production processes.",
+            "harmful_scale": 2,
+            "harmful_effects": "Biodegradable but may go to waste if not recycled.",
+            "recyclable": true
+        },
+        {
+            "label": "worn-out shoes",
+            "type": "Textile",
+            "description": "Old or damaged footwear.",
+            "harmful_scale": 5,
+            "harmful_effects": "Often made of mixed materials, making recycling difficult.",
+            "recyclable": true
+        },
+        {
+            "label": "carpet remnants",
+            "type": "Textile",
+            "description": "Leftover pieces of carpeting.",
+            "harmful_scale": 5,
+            "harmful_effects": "May contain synthetic fibers that do not decompose.",
+            "recyclable": true
+        },
+        {
+            "label": "polyester waste",
+            "type": "Textile",
+            "description": "Synthetic textile waste from polyester materials.",
+            "harmful_scale": 7,
+            "harmful_effects": "Non-biodegradable; adds to landfill waste.",
+            "recyclable": true
+        },
+        {
+            "label": "torn bed linen",
+            "type": "Textile",
+            "description": "Used or ripped bedsheets.",
+            "harmful_scale": 3,
+            "harmful_effects": "Adds to textile waste if not recycled.",
+            "recyclable": true
+        },
+        {
+            "label": "used curtains",
+            "type": "Textile",
+            "description": "Old or damaged window coverings.",
+            "harmful_scale": 4,
+            "harmful_effects": "Synthetic materials can contribute to landfill waste.",
+            "recyclable": true
+        },{
+            "label": "chewing gum",
+            "type": "Synthetic Polymer",
+            "description": "Waste chewing gum made from synthetic materials.",
+            "harmful_scale": 4,
+            "harmful_effects": "Non-biodegradable; sticks to surfaces and takes years to break down.",
+            "recyclable": false
+        },
+        {
+            "label": "cigarette ash",
+            "type": "Ash Residue",
+            "description": "Ash left after smoking cigarettes.",
+            "harmful_scale": 3,
+            "harmful_effects": "Contains toxic chemicals that can pollute soil and water.",
+            "recyclable": false
+        },
+        {
+            "label": "old tires",
+            "type": "Rubber",
+            "description": "Vehicle tires made of rubber.",
+            "harmful_scale": 6,
+            "harmful_effects": "Can leach harmful chemicals into the environment.",
+            "recyclable": true
+        },
+        {
+            "label": "broken umbrellas",
+            "type": "Mixed Material",
+            "description": "Broken umbrellas made of fabric, plastic, and metal.",
+            "harmful_scale": 5,
+            "harmful_effects": "Difficult to recycle due to mixed materials.",
+            "recyclable": false
+        },
+        {
+            "label": "cosmetics containers",
+            "type": "Plastic/Glass",
+            "description": "Used containers for storing cosmetic products.",
+            "harmful_scale": 4,
+            "harmful_effects": "Adds to plastic waste and can take centuries to decompose.",
+            "recyclable": true
+        },
+        {
+            "label": "hair strands",
+            "type": "Organic",
+            "description": "Discarded human or animal hair.",
+            "harmful_scale": 1,
+            "harmful_effects": "Minimal impact; decomposes naturally.",
+            "recyclable": false
+        },
+        {
+            "label": "nail clippings",
+            "type": "Organic",
+            "description": "Clipped nails from humans or animals.",
+            "harmful_scale": 1,
+            "harmful_effects": "Minimal impact; decomposes naturally.",
+            "recyclable": false
+        },
+        {
+            "label": "stale bread",
+            "type": "Organic",
+            "description": "Leftover bread that has gone stale.",
+            "harmful_scale": 1,
+            "harmful_effects": "Minimal impact; decomposes naturally.",
+            "recyclable": false
+        },
+        {
+            "label": "old calendars",
+            "type": "Paper",
+            "description": "Outdated paper calendars.",
+            "harmful_scale": 2,
+            "harmful_effects": "Contributes to paper waste but is biodegradable.",
+            "recyclable": true
+        },
+        {
+            "label": "worn-out toys",
+            "type": "Plastic/Metal",
+            "description": "Damaged or broken toys made of plastic or metal.",
+            "harmful_scale": 5,
+            "harmful_effects": "Non-biodegradable; adds to plastic waste.",
+            "recyclable": true
+        },
+        {
+            "label": "used printer cartridges",
+            "type": "Office Waste",
+            "description": "Cartridges from printers that are empty or non-functional.",
+            "harmful_scale": 7,
+            "harmful_effects": "Contains residual ink and plastics that are harmful to the environment.",
+            "recyclable": true
+        },
+        {
+            "label": "broken staplers",
+            "type": "Office Waste",
+            "description": "Non-functional staplers made of metal and plastic.",
+            "harmful_scale": 4,
+            "harmful_effects": "Contributes to landfill waste, takes time to degrade.",
+            "recyclable": true
+        },
+        {
+            "label": "paper clips",
+            "type": "Office Waste",
+            "description": "Small metal items used for binding papers.",
+            "harmful_scale": 2,
+            "harmful_effects": "Minimal environmental harm if improperly disposed.",
+            "recyclable": true
+        },
+        {
+            "label": "shredded paper",
+            "type": "Office Waste",
+            "description": "Shredded pieces of paper from offices.",
+            "harmful_scale": 1,
+            "harmful_effects": "Decomposes naturally but improper disposal can cause littering.",
+            "recyclable": true
+        },
+        {
+            "label": "outdated documents",
+            "type": "Office Waste",
+            "description": "Old papers or files no longer in use.",
+            "harmful_scale": 1,
+            "harmful_effects": "Decomposes naturally but takes space in landfills.",
+            "recyclable": true
+        },
+        {
+            "label": "old desk calendars",
+            "type": "Office Waste",
+            "description": "Unused or outdated desk calendars.",
+            "harmful_scale": 2,
+            "harmful_effects": "Adds to paper waste in landfills.",
+            "recyclable": true
+        },
+        {
+            "label": "cardboard boxes",
+            "type": "Office Waste",
+            "description": "Boxes made of cardboard for packaging or storage.",
+            "harmful_scale": 1,
+            "harmful_effects": "Decomposes naturally but takes space in landfills.",
+            "recyclable": true
+        },
+        {
+            "label": "non-functional office chairs",
+            "type": "Office Waste",
+            "description": "Broken or outdated office chairs made of mixed materials.",
+            "harmful_scale": 5,
+            "harmful_effects": "Takes up significant space in landfills, non-biodegradable components.",
+            "recyclable": false
+        },
+        {
+            "label": "pens and markers",
+            "type": "Office Waste",
+            "description": "Used or dried pens and markers.",
+            "harmful_scale": 6,
+            "harmful_effects": "Plastic components can take centuries to degrade.",
+            "recyclable": false
+        },
+        {
+            "label": "laminated sheets",
+            "type": "Office Waste",
+            "description": "Sheets of paper coated with plastic for durability.",
+            "harmful_scale": 6,
+            "harmful_effects": "Plastic coating prevents biodegradation and recycling.",
+            "recyclable": false
+        },
+        {
+            "label": "plastic bags",
+            "type": "Plastic Waste",
+            "description": "Lightweight plastic bags used for carrying goods.",
+            "harmful_scale": 9,
+            "harmful_effects": "Non-biodegradable, contributes to microplastics in the environment.",
+            "recyclable": true
+        },
+        {
+            "label": "straws",
+            "type": "Plastic Waste",
+            "description": "Single-use plastic straws for drinking.",
+            "harmful_scale": 8,
+            "harmful_effects": "Harmful to marine life, takes centuries to degrade.",
+            "recyclable": true
+        },
+        {
+            "label": "food containers",
+            "type": "Plastic Waste",
+            "description": "Plastic containers used to store or carry food.",
+            "harmful_scale": 7,
+            "harmful_effects": "Non-biodegradable, adds to landfill and ocean pollution.",
+            "recyclable": true
+        },
+        {
+            "label": "bubble wrap",
+            "type": "Plastic Waste",
+            "description": "Plastic material used for cushioning items during shipping.",
+            "harmful_scale": 6,
+            "harmful_effects": "Non-biodegradable and contributes to landfill volume.",
+            "recyclable": true
+        },
+        {
+            "label": "plastic cutlery",
+            "type": "Plastic Waste",
+            "description": "Disposable utensils made of plastic.",
+            "harmful_scale": 8,
+            "harmful_effects": "Non-biodegradable, harmful to wildlife if not disposed properly.",
+            "recyclable": false
+        },
+        {
+            "label": "PVC pipes",
+            "type": "Plastic Waste",
+            "description": "Plastic pipes used in plumbing and construction.",
+            "harmful_scale": 6,
+            "harmful_effects": "Non-biodegradable, releases toxic chemicals when burned.",
+            "recyclable": true
+        },
+        {
+            "label": "plastic wrappers",
+            "type": "Plastic Waste",
+            "description": "Thin plastic films used for packaging.",
+            "harmful_scale": 9,
+            "harmful_effects": "Contributes to microplastic pollution and wildlife harm.",
+            "recyclable": true
+        },
+        {
+            "label": "shampoo bottles",
+            "type": "Plastic Waste",
+            "description": "Bottles made of plastic used for shampoo or other liquids.",
+            "harmful_scale": 7,
+            "harmful_effects": "Adds to landfill pollution, non-biodegradable.",
+            "recyclable": true
+        },
+        {
+            "label": "plastic toys",
+            "type": "Plastic Waste",
+            "description": "Toys made from hard or soft plastics.",
+            "harmful_scale": 6,
+            "harmful_effects": "Non-biodegradable, takes decades to centuries to degrade.",
+            "recyclable": true
+        },
+        {
+            "label": "synthetic sponges",
+            "type": "Plastic Waste",
+            "description": "Sponges made from synthetic plastic materials.",
+            "harmful_scale": 5,
+            "harmful_effects": "Breaks into microplastics over time, non-biodegradable.",
+            "recyclable": false
+        },
+        {
+            "label": "overburden rocks",
+            "type": "Mining Waste",
+            "description": "Rocks and soil removed to access ore deposits.",
+            "harmful_scale": 4,
+            "harmful_effects": "Can disrupt ecosystems and cause erosion.",
+            "recyclable": false
+        },
+        {
+            "label": "tailings",
+            "type": "Mining Waste",
+            "description": "Residue left after the extraction of minerals.",
+            "harmful_scale": 7,
+            "harmful_effects": "Often contains toxic chemicals, polluting soil and water.",
+            "recyclable": false
+        },
+        {
+            "label": "mine water",
+            "type": "Mining Waste",
+            "description": "Water contaminated during mining operations.",
+            "harmful_scale": 8,
+            "harmful_effects": "Can introduce heavy metals and pollutants into water sources.",
+            "recyclable": false
+        },
+        {
+            "label": "dust from mining operations",
+            "type": "Mining Waste",
+            "description": "Fine particles released during mining activities.",
+            "harmful_scale": 6,
+            "harmful_effects": "Can cause respiratory issues and environmental pollution.",
+            "recyclable": false
+        },
+        {
+            "label": "gravel waste",
+            "type": "Mining Waste",
+            "description": "Excess gravel left after extraction processes.",
+            "harmful_scale": 3,
+            "harmful_effects": "Can accumulate and alter natural landscapes.",
+            "recyclable": true
+        },
+        {
+            "label": "slurry",
+            "type": "Mining Waste",
+            "description": "Mixture of water and fine particles from mining.",
+            "harmful_scale": 7,
+            "harmful_effects": "Can contaminate water sources and disrupt aquatic ecosystems.",
+            "recyclable": false
+        },
+        {
+            "label": "mine shafts debris",
+            "type": "Mining Waste",
+            "description": "Debris from the construction or collapse of mine shafts.",
+            "harmful_scale": 5,
+            "harmful_effects": "Can cause environmental hazards and obstruct landscapes.",
+            "recyclable": false
+        },
+        {
+            "label": "drilling fluids",
+            "type": "Mining Waste",
+            "description": "Fluids used to facilitate the drilling process.",
+            "harmful_scale": 9,
+            "harmful_effects": "Often toxic and can contaminate soil and water.",
+            "recyclable": false
+        },
+        {
+            "label": "explosives residue",
+            "type": "Mining Waste",
+            "description": "Residue left after blasting operations.",
+            "harmful_scale": 8,
+            "harmful_effects": "Can release harmful chemicals into the environment.",
+            "recyclable": false
+        },
+        {
+            "label": "broken mining equipment",
+            "type": "Mining Waste",
+            "description": "Damaged or unusable machinery from mining operations.",
+            "harmful_scale": 4,
+            "harmful_effects": "Contributes to metal waste and environmental clutter.",
+            "recyclable": true
+        },
+        {
+            "label": "fruit pits",
+            "type": "Food Processing Waste",
+            "description": "Seeds and pits from processed fruits.",
+            "harmful_scale": 1,
+            "harmful_effects": "Minimal environmental impact, decomposes naturally.",
+            "recyclable": false
+        },
+        {
+            "label": "vegetable peels",
+            "type": "Food Processing Waste",
+            "description": "Outer layers of vegetables discarded during processing.",
+            "harmful_scale": 1,
+            "harmful_effects": "Decomposes naturally and can be composted.",
+            "recyclable": true
+        },
+        {
+            "label": "fish scales",
+            "type": "Food Processing Waste",
+            "description": "Scales removed during fish processing.",
+            "harmful_scale": 2,
+            "harmful_effects": "Low environmental impact, but can cause minor waste buildup.",
+            "recyclable": true
+        },
+        {
+            "label": "meat scraps",
+            "type": "Food Processing Waste",
+            "description": "Excess meat left after trimming or processing.",
+            "harmful_scale": 3,
+            "harmful_effects": "Can attract pests and produce odors if not disposed of properly.",
+            "recyclable": false
+        },
+        {
+            "label": "grain husks",
+            "type": "Food Processing Waste",
+            "description": "Outer layers of grains removed during milling.",
+            "harmful_scale": 1,
+            "harmful_effects": "Low environmental impact, often used as animal feed.",
+            "recyclable": true
+        },
+        {
+            "label": "dairy residues",
+            "type": "Food Processing Waste",
+            "description": "Leftover dairy products from production processes.",
+            "harmful_scale": 4,
+            "harmful_effects": "Can create foul odors and attract pests.",
+            "recyclable": false
+        },
+        {
+            "label": "eggshells",
+            "type": "Food Processing Waste",
+            "description": "Shells discarded during egg processing.",
+            "harmful_scale": 1,
+            "harmful_effects": "Minimal environmental impact, decomposes naturally.",
+            "recyclable": true
+        },
+        {
+            "label": "spent yeast",
+            "type": "Food Processing Waste",
+            "description": "Yeast residues from brewing or baking processes.",
+            "harmful_scale": 2,
+            "harmful_effects": "Can create odors but is often reused in animal feed or fertilizer.",
+            "recyclable": true
+        },
+        {
+            "label": "coffee grounds",
+            "type": "Food Processing Waste",
+            "description": "Leftover coffee residues from brewing.",
+            "harmful_scale": 1,
+            "harmful_effects": "Decomposes naturally and can be composted.",
+            "recyclable": true
+        },
+        {
+            "label": "tea leaves",
+            "type": "Food Processing Waste",
+            "description": "Used tea leaves from brewing.",
+            "harmful_scale": 1,
+            "harmful_effects": "Decomposes naturally and can be composted.",
+            "recyclable": true
+        },
+        {
+            "label": "acid residues",
+            "type": "Chemical",
+            "description": "Leftover acids from industrial or laboratory use.",
+            "harmful_scale": 8,
+            "harmful_effects": "Can cause soil and water contamination and harm living organisms.",
+            "recyclable": false
+        },
+        {
+            "label": "alkali residues",
+            "type": "Chemical",
+            "description": "Leftover alkaline substances from industrial or laboratory processes.",
+            "harmful_scale": 7,
+            "harmful_effects": "Can increase soil pH and disrupt ecosystems.",
+            "recyclable": false
+        },
+        {
+            "label": "chemical sludge",
+            "type": "Chemical",
+            "description": "Sludge generated during chemical manufacturing or treatment processes.",
+            "harmful_scale": 9,
+            "harmful_effects": "Toxic and harmful to the environment; can release hazardous compounds.",
+            "recyclable": false
+        },
+        {
+            "label": "laboratory reagents",
+            "type": "Chemical",
+            "description": "Chemicals used in laboratories for testing and analysis.",
+            "harmful_scale": 7,
+            "harmful_effects": "Potentially hazardous if not disposed of properly.",
+            "recyclable": false
+        },
+        {
+            "label": "expired chemicals",
+            "type": "Chemical",
+            "description": "Outdated chemicals from laboratories or industries.",
+            "harmful_scale": 8,
+            "harmful_effects": "May become unstable and dangerous over time.",
+            "recyclable": false
+        },
+        {
+            "label": "cleaning solvents",
+            "type": "Chemical",
+            "description": "Solvents used for cleaning industrial or domestic equipment.",
+            "harmful_scale": 6,
+            "harmful_effects": "Volatile organic compounds can cause air and water pollution.",
+            "recyclable": true
+        },
+        {
+            "label": "fertilizer runoff",
+            "type": "Chemical",
+            "description": "Excess fertilizer washed off from agricultural land.",
+            "harmful_scale": 7,
+            "harmful_effects": "Causes water pollution and algal blooms.",
+            "recyclable": false
+        },
+        {
+            "label": "bleach",
+            "type": "Chemical",
+            "description": "A strong chemical used for cleaning and disinfecting.",
+            "harmful_scale": 6,
+            "harmful_effects": "Toxic to aquatic life and harmful if inhaled.",
+            "recyclable": false
+        },
+        {
+            "label": "insecticides",
+            "type": "Chemical",
+            "description": "Chemicals used to kill insects in agriculture or homes.",
+            "harmful_scale": 9,
+            "harmful_effects": "Highly toxic to non-target organisms, including humans and animals.",
+            "recyclable": false
+        },
+        {
+            "label": "adhesive residues",
+            "type": "Chemical",
+            "description": "Leftover glue or adhesive substances.",
+            "harmful_scale": 5,
+            "harmful_effects": "May cause minor environmental harm and be difficult to decompose.",
+            "recyclable": false
+        },
+        {
+            "label": "old display materials",
+            "type": "Retail",
+            "description": "Damaged or outdated display boards and materials.",
+            "harmful_scale": 4,
+            "harmful_effects": "Contributes to non-biodegradable waste in landfills.",
+            "recyclable": true
+        },
+        {
+            "label": "damaged merchandise",
+            "type": "Retail",
+            "description": "Products that cannot be sold due to defects or damage.",
+            "harmful_scale": 3,
+            "harmful_effects": "Adds to landfill waste but varies by material type.",
+            "recyclable": true
+        },
+        {
+            "label": "unused brochures",
+            "type": "Retail",
+            "description": "Printed promotional materials that are no longer in use.",
+            "harmful_scale": 2,
+            "harmful_effects": "Contributes to paper waste, but relatively low environmental impact.",
+            "recyclable": true
+        },
+        {
+            "label": "shopping bags",
+            "type": "Retail",
+            "description": "Disposable or reusable bags for carrying goods.",
+            "harmful_scale": 5,
+            "harmful_effects": "Plastic bags are harmful to the environment, paper bags have a smaller impact.",
+            "recyclable": true
+        },
+        {
+            "label": "price tags",
+            "type": "Retail",
+            "description": "Small tags attached to products for displaying prices.",
+            "harmful_scale": 1,
+            "harmful_effects": "Minimal environmental harm due to small size.",
+            "recyclable": true
+        },
+        {
+            "label": "cardboard displays",
+            "type": "Retail",
+            "description": "Promotional displays made of cardboard.",
+            "harmful_scale": 3,
+            "harmful_effects": "Adds to paper waste, but biodegradable and recyclable.",
+            "recyclable": true
+        },
+        {
+            "label": "expired products",
+            "type": "Retail",
+            "description": "Products that are no longer fit for consumption or sale.",
+            "harmful_scale": 6,
+            "harmful_effects": "Can release harmful chemicals or contaminate soil if not disposed of properly.",
+            "recyclable": false
+        },
+        {
+            "label": "clothing hangers",
+            "type": "Retail",
+            "description": "Hangers used for displaying clothing items.",
+            "harmful_scale": 4,
+            "harmful_effects": "Non-biodegradable if made of plastic, though some are recyclable.",
+            "recyclable": true
+        },
+        {
+            "label": "tattered carpets",
+            "type": "Retail",
+            "description": "Worn-out or damaged carpets.",
+            "harmful_scale": 5,
+            "harmful_effects": "Contributes to bulk waste and often non-biodegradable.",
+            "recyclable": true
+        },
+        {
+            "label": "lighting fixtures",
+            "type": "Retail",
+            "description": "Outdated or broken lighting equipment.",
+            "harmful_scale": 6,
+            "harmful_effects": "May contain hazardous components like mercury in fluorescent lights.",
+            "recyclable": true
+        },
+        {
+            "label": "old tires",
+            "type": "Rubber",
+            "description": "Used vehicle tires made of rubber.",
+            "harmful_scale": 6,
+            "harmful_effects": "Can leach harmful chemicals into the environment.",
+            "recyclable": true
+        },
+        {
+            "label": "engine oil filters",
+            "type": "Metal and Oil",
+            "description": "Filters from vehicles containing residual oil.",
+            "harmful_scale": 8,
+            "harmful_effects": "Residual oil can contaminate soil and water.",
+            "recyclable": true
+        },
+        {
+            "label": "brake pads",
+            "type": "Metal and Ceramic",
+            "description": "Worn-out brake pads from vehicles.",
+            "harmful_scale": 5,
+            "harmful_effects": "May release hazardous dust containing heavy metals.",
+            "recyclable": false
+        },
+        {
+            "label": "used fuel tanks",
+            "type": "Metal",
+            "description": "Empty or discarded vehicle fuel tanks.",
+            "harmful_scale": 7,
+            "harmful_effects": "Residual fuel can cause environmental contamination.",
+            "recyclable": true
+        },
+        {
+            "label": "deflated air bags",
+            "type": "Synthetic Fabric and Chemicals",
+            "description": "Non-functional airbags from vehicles.",
+            "harmful_scale": 4,
+            "harmful_effects": "May contain chemical residues that are harmful.",
+            "recyclable": false
+        },
+        {
+            "label": "broken headlights",
+            "type": "Glass and Plastic",
+            "description": "Damaged or discarded vehicle headlights.",
+            "harmful_scale": 3,
+            "harmful_effects": "Glass shards can cause physical harm; plastic can persist in the environment.",
+            "recyclable": true
+        },
+        {
+            "label": "windshield glass",
+            "type": "Glass",
+            "description": "Broken or discarded vehicle windshields.",
+            "harmful_scale": 2,
+            "harmful_effects": "Inert but can cause physical hazards if not disposed of properly.",
+            "recyclable": true
+        },
+        {
+            "label": "rusted vehicle parts",
+            "type": "Metal",
+            "description": "Corroded metal components from vehicles.",
+            "harmful_scale": 5,
+            "harmful_effects": "Corrosion may release harmful substances over time.",
+            "recyclable": true
+        },
+        {
+            "label": "spent lubricants",
+            "type": "Oil",
+            "description": "Used lubricants from vehicles.",
+            "harmful_scale": 9,
+            "harmful_effects": "Highly toxic, can contaminate soil and water.",
+            "recyclable": true
+        },
+        {
+            "label": "fuel residues",
+            "type": "Oil",
+            "description": "Leftover fuel or fuel waste from vehicles.",
+            "harmful_scale": 9,
+            "harmful_effects": "Toxic and flammable, can cause environmental damage.",
+            "recyclable": false
+        },
+        {
+            "label": "street sweepings",
+            "type": "Mixed Waste",
+            "description": "Waste collected from streets, including dirt and debris.",
+            "harmful_scale": 4,
+            "harmful_effects": "Can contain pollutants and hazardous materials.",
+            "recyclable": false
+        },
+        {
+            "label": "abandoned bicycles",
+            "type": "Metal and Rubber",
+            "description": "Discarded or unused bicycles left in urban areas.",
+            "harmful_scale": 3,
+            "harmful_effects": "Visual pollution and waste of resources.",
+            "recyclable": true
+        },
+        {
+            "label": "graffiti cleanup debris",
+            "type": "Mixed Waste",
+            "description": "Waste from cleaning graffiti, including paint residues.",
+            "harmful_scale": 6,
+            "harmful_effects": "May contain toxic chemicals from paints and cleaning agents.",
+            "recyclable": false
+        },
+        {
+            "label": "broken signboards",
+            "type": "Metal and Plastic",
+            "description": "Damaged or discarded urban signboards.",
+            "harmful_scale": 4,
+            "harmful_effects": "Non-biodegradable materials can persist in the environment.",
+            "recyclable": true
+        },
+        {
+            "label": "public bin trash",
+            "type": "Mixed Waste",
+            "description": "General waste collected from public bins.",
+            "harmful_scale": 5,
+            "harmful_effects": "Can contain biodegradable and non-biodegradable waste.",
+            "recyclable": false
+        },
+        {
+            "label": "worn-out park benches",
+            "type": "Wood and Metal",
+            "description": "Damaged benches from parks.",
+            "harmful_scale": 3,
+            "harmful_effects": "May cause injuries if left in disrepair.",
+            "recyclable": true
+        },
+        {
+            "label": "discarded traffic cones",
+            "type": "Plastic and Rubber",
+            "description": "Old or damaged traffic cones.",
+            "harmful_scale": 3,
+            "harmful_effects": "Non-biodegradable; can persist in the environment.",
+            "recyclable": true
+        },
+        {
+            "label": "old public maps",
+            "type": "Paper",
+            "description": "Outdated or damaged public maps.",
+            "harmful_scale": 1,
+            "harmful_effects": "Minimal environmental impact, biodegradable.",
+            "recyclable": true
+        },
+        {
+            "label": "pedestrian railings debris",
+            "type": "Metal",
+            "description": "Broken or discarded pedestrian railings.",
+            "harmful_scale": 3,
+            "harmful_effects": "May cause injuries or obstructions.",
+            "recyclable": true
+        },
+        {
+            "label": "torn flags",
+            "type": "Fabric",
+            "description": "Damaged flags from public spaces.",
+            "harmful_scale": 2,
+            "harmful_effects": "Low environmental impact but contributes to waste.",
+            "recyclable": true
+        },
+        {
+            "label": "bubble wrap",
+            "type": "Plastic",
+            "description": "Packaging material made of plastic with air-filled bubbles.",
+            "harmful_scale": 5,
+            "harmful_effects": "Non-biodegradable; contributes to plastic pollution.",
+            "recyclable": true
+        },
+        {
+            "label": "styrofoam",
+            "type": "Plastic",
+            "description": "Lightweight, foam-like material used for insulation and packaging.",
+            "harmful_scale": 7,
+            "harmful_effects": "Takes centuries to decompose; harmful to marine life.",
+            "recyclable": true
+        },
+        {
+            "label": "aluminum foil",
+            "type": "Metal",
+            "description": "Thin sheet of aluminum used for wrapping food and other items.",
+            "harmful_scale": 3,
+            "harmful_effects": "Can generate waste if not recycled properly.",
+            "recyclable": true
+        },
+        {
+            "label": "milk cartons",
+            "type": "Composite",
+            "description": "Cartons used for packaging milk, often lined with plastic or wax.",
+            "harmful_scale": 4,
+            "harmful_effects": "Difficult to recycle due to mixed materials.",
+            "recyclable": true
+        },
+        {
+            "label": "cling film",
+            "type": "Plastic",
+            "description": "Thin plastic wrap used for food preservation.",
+            "harmful_scale": 6,
+            "harmful_effects": "Non-biodegradable; contributes to microplastic pollution.",
+            "recyclable": false
+        },
+        {
+            "label": "cardboard tubes",
+            "type": "Paper",
+            "description": "Cylindrical cardboard used in packaging and storage.",
+            "harmful_scale": 2,
+            "harmful_effects": "Minimal impact; biodegradable but can waste resources if not recycled.",
+            "recyclable": true
+        },
+        {
+            "label": "tape rolls",
+            "type": "Plastic",
+            "description": "Adhesive tapes used for sealing and packaging.",
+            "harmful_scale": 5,
+            "harmful_effects": "Non-biodegradable; often ends up in landfills.",
+            "recyclable": false
+        },
+        {
+            "label": "wooden crates",
+            "type": "Wood",
+            "description": "Crates made of wood used for packaging and transport.",
+            "harmful_scale": 2,
+            "harmful_effects": "Minimal impact; decomposes naturally but wastes resources if not reused.",
+            "recyclable": true
+        },
+        {
+            "label": "metal tins",
+            "type": "Metal",
+            "description": "Tins made of metal used for packaging food and other products.",
+            "harmful_scale": 3,
+            "harmful_effects": "May contribute to waste if not recycled properly.",
+            "recyclable": true
+        },
+        {
+            "label": "paper sacks",
+            "type": "Paper",
+            "description": "Sacks made of paper used for packaging and carrying goods.",
+            "harmful_scale": 1,
+            "harmful_effects": "Minimal impact; biodegradable and eco-friendly.",
+            "recyclable": true
+        },
+        {
+            "label": "fallen leaves",
+            "type": "Natural",
+            "description": "Leaves that have fallen from trees.",
+            "harmful_scale": 1,
+            "harmful_effects": "Minimal impact; decomposes naturally.",
+            "recyclable": false
+        },
+        {
+            "label": "tree branches",
+            "type": "Wood",
+            "description": "Branches that have fallen or been cut from trees.",
+            "harmful_scale": 1,
+            "harmful_effects": "Minimal impact; decomposes naturally.",
+            "recyclable": false
+        },
+        {
+            "label": "dead flowers",
+            "type": "Natural",
+            "description": "Flowers that have wilted or died.",
+            "harmful_scale": 1,
+            "harmful_effects": "Minimal impact; decomposes naturally.",
+            "recyclable": false
+        },
+        {
+            "label": "animal fur",
+            "type": "Natural",
+            "description": "Fur shed by animals.",
+            "harmful_scale": 1,
+            "harmful_effects": "Minimal impact; decomposes naturally.",
+            "recyclable": false
+        },
+        {
+            "label": "bird feathers",
+            "type": "Natural",
+            "description": "Feathers shed by birds.",
+            "harmful_scale": 1,
+            "harmful_effects": "Minimal impact; decomposes naturally.",
+            "recyclable": false
+        },
+        {
+            "label": "driftwood",
+            "type": "Wood",
+            "description": "Wood that has been washed ashore by water.",
+            "harmful_scale": 1,
+            "harmful_effects": "Minimal impact; decomposes naturally.",
+            "recyclable": false
+        },
+        {
+            "label": "seaweed",
+            "type": "Natural",
+            "description": "Marine plants and algae washed ashore.",
+            "harmful_scale": 1,
+            "harmful_effects": "Minimal impact; decomposes naturally.",
+            "recyclable": false
+        },
+        {
+            "label": "fallen coconuts",
+            "type": "Natural",
+            "description": "Coconuts that have fallen from trees.",
+            "harmful_scale": 1,
+            "harmful_effects": "Minimal impact; decomposes naturally.",
+            "recyclable": false
+        },
+        {
+            "label": "walnut shells",
+            "type": "Natural",
+            "description": "Shells of walnuts discarded after consumption.",
+            "harmful_scale": 1,
+            "harmful_effects": "Minimal impact; decomposes naturally.",
+            "recyclable": false
+        },
+        {
+            "label": "pine needles",
+            "type": "Natural",
+            "description": "Needles shed by pine trees.",
+            "harmful_scale": 1,
+            "harmful_effects": "Minimal impact; decomposes naturally.",
+            "recyclable": false
+        },
+        {
+            "label": "old textbooks",
+            "type": "Paper",
+            "description": "Used textbooks that are no longer relevant or in good condition.",
+            "harmful_scale": 3,
+            "harmful_effects": "Can contribute to deforestation if not recycled.",
+            "recyclable": true
+        },
+        {
+            "label": "broken school desks",
+            "type": "Wood/Metal",
+            "description": "Damaged desks used in schools, often made of wood or metal.",
+            "harmful_scale": 4,
+            "harmful_effects": "Non-biodegradable parts may persist in the environment.",
+            "recyclable": true
+        },
+        {
+            "label": "exam papers",
+            "type": "Paper",
+            "description": "Used exam papers from educational institutions.",
+            "harmful_scale": 2,
+            "harmful_effects": "Waste if not recycled, but biodegradable.",
+            "recyclable": true
+        },
+        {
+            "label": "chalk dust",
+            "type": "Dust",
+            "description": "Residue from the use of chalk in classrooms.",
+            "harmful_scale": 1,
+            "harmful_effects": "Minimal environmental impact, can cause irritation when airborne.",
+            "recyclable": false
+        },
+        {
+            "label": "outdated syllabi",
+            "type": "Paper",
+            "description": "Printed copies of outdated curriculum content.",
+            "harmful_scale": 2,
+            "harmful_effects": "Wasteful if not recycled.",
+            "recyclable": true
+        },
+        {
+            "label": "used notebooks",
+            "type": "Paper",
+            "description": "Partially or fully used notebooks.",
+            "harmful_scale": 2,
+            "harmful_effects": "Potential waste but biodegradable.",
+            "recyclable": true
+        },
+        {
+            "label": "broken erasers",
+            "type": "Rubber",
+            "description": "Damaged or used-up erasers.",
+            "harmful_scale": 3,
+            "harmful_effects": "Non-biodegradable and can accumulate in landfills.",
+            "recyclable": false
+        },
+        {
+            "label": "rulers",
+            "type": "Plastic/Wood",
+            "description": "Measuring tools made of plastic or wood.",
+            "harmful_scale": 4,
+            "harmful_effects": "Plastic rulers can persist in the environment.",
+            "recyclable": true
+        },
+        {
+            "label": "geometry boxes",
+            "type": "Metal/Plastic",
+            "description": "Boxes containing tools like compasses and protractors.",
+            "harmful_scale": 4,
+            "harmful_effects": "Metal and plastic waste can harm the environment.",
+            "recyclable": true
+        },
+        {
+            "label": "whiteboard markers",
+            "type": "Plastic/Chemical",
+            "description": "Markers used on whiteboards with plastic casing.",
+            "harmful_scale": 5,
+            "harmful_effects": "Contains chemicals and plastic, contributing to pollution.",
+            "recyclable": false
+        },
+        {
+            "label": "disposable plates",
+            "type": "Plastic/Paper",
+            "description": "Single-use plates for food consumption.",
+            "harmful_scale": 6,
+            "harmful_effects": "Non-biodegradable plastics can cause long-term pollution.",
+            "recyclable": true
+        },
+        {
+            "label": "single-use utensils",
+            "type": "Plastic",
+            "description": "Disposable spoons, forks, and knives.",
+            "harmful_scale": 6,
+            "harmful_effects": "Persistent plastic waste, harmful to marine life.",
+            "recyclable": true
+        },
+        {
+            "label": "hotel toiletries",
+            "type": "Plastic/Chemicals",
+            "description": "Miniature bottles of shampoo, conditioner, and soap.",
+            "harmful_scale": 5,
+            "harmful_effects": "Generates plastic waste and chemical contamination.",
+            "recyclable": true
+        },
+        {
+            "label": "used towels",
+            "type": "Textile",
+            "description": "Worn-out towels used in hotels.",
+            "harmful_scale": 3,
+            "harmful_effects": "Wasteful if not reused or repurposed.",
+            "recyclable": false
+        },
+        {
+            "label": "room keycards",
+            "type": "Plastic",
+            "description": "Plastic cards used as hotel room keys.",
+            "harmful_scale": 4,
+            "harmful_effects": "Non-biodegradable, adds to plastic pollution.",
+            "recyclable": true
+        },
+        {
+            "label": "packaging from deliveries",
+            "type": "Plastic/Cardboard",
+            "description": "Packaging waste generated from hotel deliveries.",
+            "harmful_scale": 4,
+            "harmful_effects": "Plastic adds to pollution; cardboard can degrade.",
+            "recyclable": true
+        },
+        {
+            "label": "food leftovers",
+            "type": "Organic",
+            "description": "Excess or uneaten food from hotels or restaurants.",
+            "harmful_scale": 3,
+            "harmful_effects": "Can lead to methane emissions in landfills.",
+            "recyclable": false
+        },
+        {
+            "label": "wine corks",
+            "type": "Wood/Composite",
+            "description": "Used cork stoppers from wine bottles.",
+            "harmful_scale": 2,
+            "harmful_effects": "Minimal impact, biodegradable.",
+            "recyclable": true
+        },
+        {
+            "label": "old tablecloths",
+            "type": "Textile",
+            "description": "Worn-out or stained tablecloths.",
+            "harmful_scale": 3,
+            "harmful_effects": "Can contribute to textile waste.",
+            "recyclable": false
+        },
+        {
+            "label": "broken utensils",
+            "type": "Metal/Plastic",
+            "description": "Damaged or unusable kitchen utensils.",
+            "harmful_scale": 4,
+            "harmful_effects": "Metal and plastic waste can persist in the environment.",
+            "recyclable": true
+        },
+        {
+            "label": "balloons",
+            "type": "Plastic",
+            "description": "Inflatable decorations made of latex or synthetic materials.",
+            "harmful_scale": 5,
+            "harmful_effects": "Non-biodegradable; can harm marine life if ingested.",
+            "recyclable": false
+        },
+        {
+            "label": "confetti",
+            "type": "Paper/Plastic",
+            "description": "Small decorative pieces often used for celebrations.",
+            "harmful_scale": 3,
+            "harmful_effects": "Can create litter and is difficult to clean.",
+            "recyclable": false
+        },
+        {
+            "label": "streamers",
+            "type": "Paper/Plastic",
+            "description": "Long, decorative strips of material used for events.",
+            "harmful_scale": 2,
+            "harmful_effects": "Can contribute to litter if not disposed of properly.",
+            "recyclable": true
+        },
+        {
+            "label": "torn tickets",
+            "type": "Paper",
+            "description": "Used paper tickets from events.",
+            "harmful_scale": 1,
+            "harmful_effects": "Minimal impact but contributes to paper waste.",
+            "recyclable": true
+        },
+        {
+            "label": "event banners",
+            "type": "Fabric/Plastic",
+            "description": "Large signs used for promotional or decorative purposes.",
+            "harmful_scale": 4,
+            "harmful_effects": "Can create long-term waste if made of plastic.",
+            "recyclable": true
+        },
+        {
+            "label": "water bottles",
+            "type": "Plastic",
+            "description": "Single-use plastic bottles for drinking water.",
+            "harmful_scale": 6,
+            "harmful_effects": "Contributes to plastic pollution; takes years to decompose.",
+            "recyclable": true
+        },
+        {
+            "label": "broken instruments",
+            "type": "Wood/Metal",
+            "description": "Damaged musical instruments.",
+            "harmful_scale": 2,
+            "harmful_effects": "Minimal direct harm; adds to landfill waste.",
+            "recyclable": true
+        },
+        {
+            "label": "worn-out sports gear",
+            "type": "Synthetic/Rubber",
+            "description": "Old or damaged sports equipment.",
+            "harmful_scale": 3,
+            "harmful_effects": "Adds to landfill waste and may take years to decompose.",
+            "recyclable": false
+        },
+        {
+            "label": "used fireworks",
+            "type": "Chemical",
+            "description": "Residue from fireworks after use.",
+            "harmful_scale": 7,
+            "harmful_effects": "Releases harmful chemicals and creates litter.",
+            "recyclable": false
+        },
+        {
+            "label": "stage props",
+            "type": "Mixed",
+            "description": "Decorative items used for performances.",
+            "harmful_scale": 4,
+            "harmful_effects": "Varies by material; contributes to landfill waste.",
+            "recyclable": true
+        },
+        {
+            "label": "PCB materials",
+            "type": "Hazardous",
+            "description": "Polychlorinated biphenyls found in old electrical equipment.",
+            "harmful_scale": 9,
+            "harmful_effects": "Highly toxic; carcinogenic and persistent in the environment.",
+            "recyclable": false
+        },
+        {
+            "label": "contaminated rags",
+            "type": "Fabric",
+            "description": "Cloth rags soaked in hazardous chemicals.",
+            "harmful_scale": 8,
+            "harmful_effects": "Can leach chemicals into the environment.",
+            "recyclable": false
+        },
+        {
+            "label": "arsenic-contaminated soil",
+            "type": "Hazardous",
+            "description": "Soil polluted with arsenic due to industrial or agricultural activities.",
+            "harmful_scale": 10,
+            "harmful_effects": "Highly toxic to humans and ecosystems.",
+            "recyclable": false
+        },
+        {
+            "label": "uranium mining waste",
+            "type": "Radioactive",
+            "description": "Residual materials from uranium extraction.",
+            "harmful_scale": 10,
+            "harmful_effects": "Radioactive and hazardous for thousands of years.",
+            "recyclable": false
+        },
+        {
+            "label": "explosives waste",
+            "type": "Hazardous",
+            "description": "Residues from military or industrial explosives.",
+            "harmful_scale": 9,
+            "harmful_effects": "Highly dangerous and toxic to the environment.",
+            "recyclable": false
+        },
+        {
+            "label": "cyanide residues",
+            "type": "Chemical",
+            "description": "Toxic by-products from chemical processes.",
+            "harmful_scale": 10,
+            "harmful_effects": "Lethal to humans and wildlife even in small amounts.",
+            "recyclable": false
+        },
+        {
+            "label": "toxic dyes",
+            "type": "Chemical",
+            "description": "Colorants containing harmful substances.",
+            "harmful_scale": 8,
+            "harmful_effects": "Pollutes water bodies and can be toxic to marine life.",
+            "recyclable": false
+        },
+        {
+            "label": "biohazard waste bins",
+            "type": "Plastic/Metal",
+            "description": "Bins containing medical or infectious waste.",
+            "harmful_scale": 9,
+            "harmful_effects": "May spread disease or harm if improperly handled.",
+            "recyclable": false
+        },
+        {
+            "label": "contaminated PPE",
+            "type": "Mixed",
+            "description": "Personal protective equipment contaminated with hazardous materials.",
+            "harmful_scale": 8,
+            "harmful_effects": "Can spread harmful substances if not disposed of correctly.",
+            "recyclable": false
+        },
+        {
+            "label": "corrosive waste",
+            "type": "Chemical",
+            "description": "Materials that can corrode or damage living tissues and surfaces.",
+            "harmful_scale": 10,
+            "harmful_effects": "Highly hazardous; causes burns and environmental damage.",
+            "recyclable": false
+        },
+        {
+            "label": "dried-up paint tubes",
+            "type": "Art and Craft Waste",
+            "description": "Used and dried paint tubes from art activities.",
+            "harmful_scale": 4,
+            "harmful_effects": "Can release harmful chemicals if not disposed of properly.",
+            "recyclable": false
+        },
+        {
+            "label": "broken paintbrushes",
+            "type": "Art and Craft Waste",
+            "description": "Damaged paintbrushes from art usage.",
+            "harmful_scale": 2,
+            "harmful_effects": "Non-biodegradable if made with synthetic materials.",
+            "recyclable": false
+        },
+        {
+            "label": "craft paper scraps",
+            "type": "Art and Craft Waste",
+            "description": "Leftover pieces of paper from crafting.",
+            "harmful_scale": 1,
+            "harmful_effects": "Minimal harm, biodegradable.",
+            "recyclable": true
+        },
+        {
+            "label": "leftover glue",
+            "type": "Art and Craft Waste",
+            "description": "Unused or dried glue from crafting projects.",
+            "harmful_scale": 3,
+            "harmful_effects": "Can release toxic chemicals into the soil or water.",
+            "recyclable": false
+        },
+        {
+            "label": "thread remnants",
+            "type": "Art and Craft Waste",
+            "description": "Small leftover threads from sewing or crafts.",
+            "harmful_scale": 1,
+            "harmful_effects": "Minimal impact, biodegradable if natural fibers.",
+            "recyclable": false
+        },
+        {
+            "label": "glitter waste",
+            "type": "Art and Craft Waste",
+            "description": "Microplastic glitter used in decorations and crafts.",
+            "harmful_scale": 7,
+            "harmful_effects": "Highly harmful to marine and terrestrial ecosystems.",
+            "recyclable": false
+        },
+        {
+            "label": "dried-up markers",
+            "type": "Art and Craft Waste",
+            "description": "Used and dried markers from art or school activities.",
+            "harmful_scale": 3,
+            "harmful_effects": "Can leach harmful chemicals if not disposed of properly.",
+            "recyclable": false
+        },
+        {
+            "label": "ribbon scraps",
+            "type": "Art and Craft Waste",
+            "description": "Leftover ribbon pieces from craft projects.",
+            "harmful_scale": 2,
+            "harmful_effects": "Non-biodegradable if made from synthetic materials.",
+            "recyclable": false
+        },
+        {
+            "label": "clay residues",
+            "type": "Art and Craft Waste",
+            "description": "Leftover clay from sculpting or crafting.",
+            "harmful_scale": 1,
+            "harmful_effects": "Minimal harm, mostly biodegradable.",
+            "recyclable": false
+        },
+        {
+            "label": "yarn leftovers",
+            "type": "Art and Craft Waste",
+            "description": "Scrap yarn pieces left from knitting or crocheting.",
+            "harmful_scale": 1,
+            "harmful_effects": "Minimal impact, biodegradable if natural fibers.",
+            "recyclable": false
+        },
+        {
+            "label": "hay bales",
+            "type": "Rural and Village Waste",
+            "description": "Bundles of hay left unused.",
+            "harmful_scale": 1,
+            "harmful_effects": "Minimal environmental impact, decomposes naturally.",
+            "recyclable": false
+        },
+        {
+            "label": "cow dung",
+            "type": "Rural and Village Waste",
+            "description": "Animal waste from cows.",
+            "harmful_scale": 1,
+            "harmful_effects": "Minimal harm, can be used as fertilizer or biofuel.",
+            "recyclable": true
+        },
+        {
+            "label": "discarded farming tools",
+            "type": "Rural and Village Waste",
+            "description": "Broken or unused tools used in farming.",
+            "harmful_scale": 3,
+            "harmful_effects": "Can rust and leach harmful metals into the soil.",
+            "recyclable": true
+        },
+        {
+            "label": "broken pottery",
+            "type": "Rural and Village Waste",
+            "description": "Damaged or broken clay pottery.",
+            "harmful_scale": 2,
+            "harmful_effects": "Minimal harm, decomposes naturally over time.",
+            "recyclable": false
+        },
+        {
+            "label": "straw waste",
+            "type": "Rural and Village Waste",
+            "description": "Unused or leftover straw from farming.",
+            "harmful_scale": 1,
+            "harmful_effects": "Minimal harm, biodegradable.",
+            "recyclable": false
+        },
+        {
+            "label": "used jute bags",
+            "type": "Rural and Village Waste",
+            "description": "Old and worn-out jute bags.",
+            "harmful_scale": 1,
+            "harmful_effects": "Minimal harm, biodegradable.",
+            "recyclable": true
+        },
+        {
+            "label": "worn-out bullock carts",
+            "type": "Rural and Village Waste",
+            "description": "Damaged or unused bullock carts.",
+            "harmful_scale": 3,
+            "harmful_effects": "Wood and metal parts can decompose or rust over time.",
+            "recyclable": true
+        },
+        {
+            "label": "weeds",
+            "type": "Rural and Village Waste",
+            "description": "Unwanted plants from agricultural fields.",
+            "harmful_scale": 1,
+            "harmful_effects": "Minimal harm, biodegradable.",
+            "recyclable": false
+        },
+        {
+            "label": "ash from clay ovens",
+            "type": "Rural and Village Waste",
+            "description": "Leftover ash from traditional clay ovens.",
+            "harmful_scale": 1,
+            "harmful_effects": "Minimal impact, can be used as fertilizer.",
+            "recyclable": true
+        },
+        {
+            "label": "thatch roof remnants",
+            "type": "Rural and Village Waste",
+            "description": "Leftover pieces from thatch roofs.",
+            "harmful_scale": 1,
+            "harmful_effects": "Minimal harm, biodegradable.",
+            "recyclable": false
+        },
+        {
+            "label": "spent bullet casings",
+            "type": "Metal",
+            "description": "Used bullet casings from firearms.",
+            "harmful_scale": 5,
+            "harmful_effects": "Can cause soil contamination if left unattended.",
+            "recyclable": true
+        },
+        {
+            "label": "damaged uniforms",
+            "type": "Textile",
+            "description": "Worn or torn uniforms from military personnel.",
+            "harmful_scale": 3,
+            "harmful_effects": "Non-biodegradable textiles contribute to waste accumulation.",
+            "recyclable": true
+        },
+        {
+            "label": "obsolete weapons",
+            "type": "Metal",
+            "description": "Weapons no longer in use.",
+            "harmful_scale": 8,
+            "harmful_effects": "Risk of accidents and can contribute to metal pollution.",
+            "recyclable": true
+        },
+        {
+            "label": "decommissioned tanks",
+            "type": "Metal",
+            "description": "Tanks retired from active service.",
+            "harmful_scale": 9,
+            "harmful_effects": "Large-scale pollution and material waste if not recycled.",
+            "recyclable": true
+        },
+        {
+            "label": "ammunition crates",
+            "type": "Wood/Metal",
+            "description": "Crates used for transporting ammunition.",
+            "harmful_scale": 4,
+            "harmful_effects": "Non-recyclable materials can persist in landfills.",
+            "recyclable": true
+        },
+        {
+            "label": "radar equipment waste",
+            "type": "Electronics",
+            "description": "Outdated radar systems.",
+            "harmful_scale": 7,
+            "harmful_effects": "Contains hazardous materials like lead and mercury.",
+            "recyclable": true
+        },
+        {
+            "label": "explosive residue",
+            "type": "Chemical",
+            "description": "Leftover residues from explosives.",
+            "harmful_scale": 10,
+            "harmful_effects": "Highly toxic, can contaminate soil and water.",
+            "recyclable": false
+        },
+        {
+            "label": "battlefield debris",
+            "type": "Mixed",
+            "description": "Miscellaneous debris left on battlefields.",
+            "harmful_scale": 8,
+            "harmful_effects": "Pollution, potential hazards for wildlife.",
+            "recyclable": false
+        },
+        {
+            "label": "used parachutes",
+            "type": "Textile",
+            "description": "Parachutes made from synthetic materials.",
+            "harmful_scale": 3,
+            "harmful_effects": "Non-biodegradable, contributes to textile waste.",
+            "recyclable": true
+        },
+        {
+            "label": "combat vehicle parts",
+            "type": "Metal/Plastic",
+            "description": "Parts from decommissioned combat vehicles.",
+            "harmful_scale": 6,
+            "harmful_effects": "Can cause environmental contamination if not disposed of properly.",
+            "recyclable": true
+        },
+        {
+            "label": "unused fabric rolls",
+            "type": "Textile",
+            "description": "Unused rolls of fabric from manufacturing.",
+            "harmful_scale": 3,
+            "harmful_effects": "Non-biodegradable textiles contribute to waste.",
+            "recyclable": true
+        },
+        {
+            "label": "sewing machine parts",
+            "type": "Metal/Plastic",
+            "description": "Parts from old or broken sewing machines.",
+            "harmful_scale": 4,
+            "harmful_effects": "Can persist in landfills if not recycled.",
+            "recyclable": true
+        },
+        {
+            "label": "dye containers",
+            "type": "Plastic",
+            "description": "Containers used for storing dyes.",
+            "harmful_scale": 6,
+            "harmful_effects": "Can leach chemicals into the environment.",
+            "recyclable": true
+        },
+        {
+            "label": "off-season clothing",
+            "type": "Textile",
+            "description": "Clothing that is out of style or season.",
+            "harmful_scale": 3,
+            "harmful_effects": "Non-biodegradable textiles contribute to waste.",
+            "recyclable": true
+        },
+        {
+            "label": "discarded mannequins",
+            "type": "Plastic",
+            "description": "Mannequins made of plastic or fiberglass.",
+            "harmful_scale": 7,
+            "harmful_effects": "Non-biodegradable and takes up space in landfills.",
+            "recyclable": true
+        },
+        {
+            "label": "textile dye waste",
+            "type": "Chemical",
+            "description": "Wastewater and residues from textile dyeing processes.",
+            "harmful_scale": 9,
+            "harmful_effects": "Pollutes water bodies and harms aquatic life.",
+            "recyclable": false
+        },
+        {
+            "label": "torn shoes",
+            "type": "Rubber/Textile",
+            "description": "Worn-out or damaged footwear.",
+            "harmful_scale": 5,
+            "harmful_effects": "Non-biodegradable components persist in the environment.",
+            "recyclable": true
+        },
+        {
+            "label": "old belts",
+            "type": "Leather/Textile",
+            "description": "Belts made from leather or synthetic materials.",
+            "harmful_scale": 4,
+            "harmful_effects": "Leather waste can leach chemicals into the soil.",
+            "recyclable": true
+        },
+        {
+            "label": "broken zippers",
+            "type": "Metal/Plastic",
+            "description": "Zippers from clothing or accessories.",
+            "harmful_scale": 3,
+            "harmful_effects": "Small parts that persist in the environment.",
+            "recyclable": true
+        },
+        {
+            "label": "hat trimmings",
+            "type": "Textile",
+            "description": "Leftover materials from hat manufacturing.",
+            "harmful_scale": 2,
+            "harmful_effects": "Non-biodegradable components contribute to waste.",
+            "recyclable": true
+        },
+        {
+            "label": "solar panel parts",
+            "type": "Advanced Technology",
+            "description": "Components of damaged or discarded solar panels.",
+            "harmful_scale": 7,
+            "harmful_effects": "Contains toxic substances like cadmium and lead.",
+            "recyclable": true
+        },
+        {
+            "label": "dismantled drones",
+            "type": "Advanced Technology",
+            "description": "Non-functional drone parts.",
+            "harmful_scale": 6,
+            "harmful_effects": "May release hazardous chemicals if improperly disposed.",
+            "recyclable": true
+        },
+        {
+            "label": "broken robotics parts",
+            "type": "Advanced Technology",
+            "description": "Parts of broken or non-functional robots.",
+            "harmful_scale": 7,
+            "harmful_effects": "Contains electronics and metals that can pollute the soil and water.",
+            "recyclable": true
+        },
+        {
+            "label": "wearable devices",
+            "type": "Advanced Technology",
+            "description": "Non-functioning smartwatches and similar gadgets.",
+            "harmful_scale": 6,
+            "harmful_effects": "Lithium-ion batteries can cause environmental damage.",
+            "recyclable": true
+        },
+        {
+            "label": "fiber optic cables",
+            "type": "Advanced Technology",
+            "description": "Cables used for high-speed data transfer.",
+            "harmful_scale": 4,
+            "harmful_effects": "Non-biodegradable, accumulates in landfills.",
+            "recyclable": true
+        },
+        {
+            "label": "non-functioning 3D printers",
+            "type": "Advanced Technology",
+            "description": "Broken or outdated 3D printing machines.",
+            "harmful_scale": 7,
+            "harmful_effects": "May contain hazardous electronic components.",
+            "recyclable": true
+        },
+        {
+            "label": "VR headsets",
+            "type": "Advanced Technology",
+            "description": "Damaged or outdated virtual reality devices.",
+            "harmful_scale": 6,
+            "harmful_effects": "Electronic waste containing plastics and metals.",
+            "recyclable": true
+        },
+        {
+            "label": "lithium-ion batteries",
+            "type": "Advanced Technology",
+            "description": "Rechargeable batteries used in electronics.",
+            "harmful_scale": 9,
+            "harmful_effects": "Highly toxic, can cause fires and environmental contamination.",
+            "recyclable": true
+        },
+        {
+            "label": "outdated server racks",
+            "type": "Advanced Technology",
+            "description": "Old or decommissioned data storage racks.",
+            "harmful_scale": 6,
+            "harmful_effects": "E-waste that can pollute soil and water.",
+            "recyclable": true
+        },
+        {
+            "label": "satellite debris",
+            "type": "Advanced Technology",
+            "description": "Parts of satellites that fall back to Earth.",
+            "harmful_scale": 8,
+            "harmful_effects": "Non-biodegradable and may release toxic materials.",
+            "recyclable": false
+        },
+        {
+            "label": "candle stubs",
+            "type": "Unique and Rare Waste",
+            "description": "Leftover wax from candles.",
+            "harmful_scale": 2,
+            "harmful_effects": "Minimal impact, but may accumulate in landfills.",
+            "recyclable": true
+        },
+        {
+            "label": "old trophies",
+            "type": "Unique and Rare Waste",
+            "description": "Discarded trophies made of metal or plastic.",
+            "harmful_scale": 4,
+            "harmful_effects": "Non-biodegradable components like plastic.",
+            "recyclable": true
+        },
+        {
+            "label": "artificial flowers",
+            "type": "Unique and Rare Waste",
+            "description": "Fake flowers made from plastic or fabric.",
+            "harmful_scale": 5,
+            "harmful_effects": "Non-biodegradable, adds to plastic pollution.",
+            "recyclable": true
+        },
+        {
+            "label": "broken aquariums",
+            "type": "Unique and Rare Waste",
+            "description": "Glass or acrylic tanks used for fish.",
+            "harmful_scale": 4,
+            "harmful_effects": "Non-biodegradable, but glass is recyclable.",
+            "recyclable": true
+        },
+        {
+            "label": "torn umbrellas",
+            "type": "Unique and Rare Waste",
+            "description": "Broken umbrellas with metal and fabric components.",
+            "harmful_scale": 5,
+            "harmful_effects": "Non-biodegradable parts like plastic handles.",
+            "recyclable": true
+        },
+        {
+            "label": "fishing rods",
+            "type": "Unique and Rare Waste",
+            "description": "Old or broken fishing equipment.",
+            "harmful_scale": 5,
+            "harmful_effects": "Non-biodegradable materials such as fiberglass and plastic.",
+            "recyclable": true
+        },
+        {
+            "label": "garden gnomes",
+            "type": "Unique and Rare Waste",
+            "description": "Decorative statues for gardens.",
+            "harmful_scale": 3,
+            "harmful_effects": "May contribute to landfill waste.",
+            "recyclable": false
+        },
+        {
+            "label": "old chessboards",
+            "type": "Unique and Rare Waste",
+            "description": "Discarded chessboards made of wood or plastic.",
+            "harmful_scale": 3,
+            "harmful_effects": "Wood decomposes, but plastic parts persist.",
+            "recyclable": true
+        },
+        {
+            "label": "cracked ceramics",
+            "type": "Unique and Rare Waste",
+            "description": "Broken ceramic items like plates and tiles.",
+            "harmful_scale": 4,
+            "harmful_effects": "Non-biodegradable but can be reused in construction.",
+            "recyclable": true
+        },
+        {
+            "label": "shoe soles",
+            "type": "Unique and Rare Waste",
+            "description": "Worn-out or discarded shoe bottoms.",
+            "harmful_scale": 5,
+            "harmful_effects": "Synthetic rubber is non-biodegradable.",
+            "recyclable": true
+        }
+       
+    
+]
