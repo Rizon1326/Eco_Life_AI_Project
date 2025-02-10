@@ -1,6 +1,6 @@
 Sure! Here's the full modified README file with respective icons and formatted for your GitHub repository:
 
-```markdown
+
 # EcoLife AI Project
 
 ![EcoLife AI](https://img.icons8.com/ios/452/eco-friendly.png)
