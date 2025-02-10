@@ -72,7 +72,7 @@ EcoLife AI is a project aimed at improving health and wellness through the use o
 4. **FastAPI Setup:**
    - Navigate to the `app` directory:
      ```bash
-     cd app
+     cd ..
      ```
    - Start the FastAPI server:
      ```bash
