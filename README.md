@@ -1,7 +1,7 @@
 
 # EcoLife AI Project
 
-<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/abf07fc4-e368-449b-ac2f-e86eb6b3cc49" />
+
 
 
 **Project Name:** EcoLife AI  
